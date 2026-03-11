@@ -1,0 +1,12 @@
+# Broad Reach Outbound Machine (v10)
+# Script/cron runner, not a web server.
+# Use Replit Shell to run individual steps or test the full cycle.
+run = "pip install -r requirements.txt && python run_daily_cycle.py"
+entrypoint = "run_daily_cycle.py"
+language = "python3"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+REPLIT_DEV_DOMAIN = "${REPL_SLUG}.${REPL_OWNER}.repl.co"

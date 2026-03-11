@@ -1,0 +1,19 @@
+# Broad Reach Customer Portal
+# FastAPI backend with SQLite, Google OAuth
+run = "pip install -r requirements.txt && uvicorn api_server:app --host 0.0.0.0 --port 8000"
+entrypoint = "index.html"
+language = "python3"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+REPLIT_DEV_DOMAIN = "${REPL_SLUG}.${REPL_OWNER}.repl.co"
+
+[deployment]
+run = ["sh", "-c", "uvicorn api_server:app --host 0.0.0.0 --port 8000"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8000
+externalPort = 80

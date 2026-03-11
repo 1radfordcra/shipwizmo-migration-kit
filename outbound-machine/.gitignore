@@ -5,5 +5,3 @@ __pycache__/
 *.db
 outreach/batch_*.json
 prospect_cumulative_log.md
-.replit
-replit.nix

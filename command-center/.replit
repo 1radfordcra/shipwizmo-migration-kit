@@ -1,0 +1,21 @@
+# Broad Reach Command Center
+# Dashboard (static HTML/JS/CSS) + FastAPI API proxy for feed actions.
+# The API proxy handles /api/* routes (block, unblock, remove contacts).
+# Dashboard data comes from dashboard_cache.json (refreshed by cron scripts).
+run = "pip install -r requirements.txt && uvicorn api_server:app --host 0.0.0.0 --port 8000"
+entrypoint = "index.html"
+language = "python3"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+REPLIT_DEV_DOMAIN = "${REPL_SLUG}.${REPL_OWNER}.repl.co"
+
+[deployment]
+run = ["sh", "-c", "uvicorn api_server:app --host 0.0.0.0 --port 8000"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
