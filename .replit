@@ -1,0 +1,25 @@
+# ╔═══════════════════════════════════════════════════════════════╗
+# ║  ShipWizmo Migration Kit — App Launcher                     ║
+# ║  5 apps · Built by Craig via Perplexity Computer            ║
+# ╚═══════════════════════════════════════════════════════════════╝
+#
+# Hit "Run" to see the launcher menu. Pick an app to start it.
+# Each app runs on port 8000. Stop one before starting another.
+#
+# Or run any app directly from the Shell:
+#   cd savings-calculator && python -m http.server 8000 --cgi
+#   cd sapt-tool && pip install -r requirements.txt && uvicorn api_server:app --host 0.0.0.0 --port 8000
+#   cd command-center && pip install -r requirements.txt && uvicorn api_server:app --host 0.0.0.0 --port 8000
+#   cd customs-data-portal && pip install -r requirements.txt && uvicorn api_server:app --host 0.0.0.0 --port 8000
+#   cd outbound-machine && pip install -r requirements.txt && python run_daily_cycle.py
+
+run = "python launch.py"
+entrypoint = "launch.py"
+language = "python3"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8000
+externalPort = 80
