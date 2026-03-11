@@ -1,0 +1,742 @@
+{
+  "title": "UPS 2026 Accessorials Rates - Wizmo YVR",
+  "effective_date": "December 21, 2026",
+  "currency": "CAD",
+  "accessorials": [
+    {
+      "name": "UPS Service/Accessorial",
+      "category": null,
+      "rate": "Rate",
+      "how_applied": "How Applied",
+      "fuel_surcharge_applicable": null
+    },
+    {
+      "name": "Additional Handling - Weight > 50 lbs/32 kg (Domestic)",
+      "category": null,
+      "rate": 11.7775,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Length > 48\"/122 cm (Domestic)",
+      "category": null,
+      "rate": 10.5175,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - 2nd longest side > 30\"/76 cm (Domestic)",
+      "category": null,
+      "rate": 10.5175,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Packaging (Domestic)",
+      "category": null,
+      "rate": 10.5175,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - AHC - Gith ( Length + Girth ( 2 x Width+ 2 x Height), Exceeding 105 in/266 cm (Domestic)",
+      "category": null,
+      "rate": 10.5175,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Weight > 50 lbs/22 kg (International)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Length > 48\"/122 cm (International)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - 2nd longest side > 30\"/76 cm (International)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Packaging (International)",
+      "category": null,
+      "rate": 10.5175,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - AHC - Gith ( Length + Girth ( 2 x Width+ 2 x Height), Exceeding 105 in/266 cm (International)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Weight > 70 lbs/32 kg (Import)",
+      "category": null,
+      "rate": 28.45,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Length > 48\"/122 cm (Import)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - 2nd longest side > 30\"/76 cm (Import)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - Packaging (Import)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Additional Handling - AHC - Gith ( Length + Girth ( 2 x Width+ 2 x Height), Exceeding 105 in/266 cm (Import)",
+      "category": null,
+      "rate": 30.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Address Correction",
+      "category": null,
+      "rate": 9.825,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Billing Option Payer Refusal",
+      "category": null,
+      "rate": 16.8,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Declared Value Protection against Loss or Damage (Sept 22_2024)",
+      "category": null,
+      "rate": 4.85,
+      "how_applied": "per $100 over $100",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Deliver to Addressee Only (with Ship to a UPS Access Point Location Service)",
+      "category": null,
+      "rate": 3.75,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Direct Delivery Only",
+      "category": null,
+      "rate": 2.0,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Domestic Shipments Billed to the Receiver or a Third Party",
+      "category": null,
+      "rate": "Waived",
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Duty and Tax Forwarding",
+      "category": null,
+      "rate": "Waived",
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Commercial (Domestic)",
+      "category": null,
+      "rate": "$88.28 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Residential (Domestic)",
+      "category": null,
+      "rate": "$97.39 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length > 96\"/244 cm - Commercial - Domestic Only",
+      "category": null,
+      "rate": "$84.04 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length > 96\"/244 cm - Residential - Domestic Only",
+      "category": null,
+      "rate": "$92.74 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Commercial (Export)",
+      "category": null,
+      "rate": "$117.70 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Residential (Export)",
+      "category": null,
+      "rate": "$129.85 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Commercial (Import)",
+      "category": null,
+      "rate": "$117.70 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Large Package Surcharge Length + Girth > 130\"/330 cm - Residential (Import)",
+      "category": null,
+      "rate": "$129.85 (+minimum billable weight of 90 lbs/41 kg)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Late Payment",
+      "category": null,
+      "rate": "8.00%",
+      "how_applied": "Of over amount (one time)",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Mailed Invoice",
+      "category": null,
+      "rate": 2.5,
+      "how_applied": "per Invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Invoice Print Charge",
+      "category": null,
+      "rate": 2.75,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Paper Commercial Invoice Surcharge",
+      "category": null,
+      "rate": 37.75,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Missing or Invalid Account Number Lookup",
+      "category": null,
+      "rate": 17.1,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Missing PLD",
+      "category": null,
+      "rate": 4.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Over Maximum Limits (> 150 lbs/68 kg, 165\"/419 cm L+G or 108\"/274 cm L)",
+      "category": null,
+      "rate": 1380.75,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Prohibited Item",
+      "category": null,
+      "rate": 315.0,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Residential Surcharge (Domestic)",
+      "category": null,
+      "rate": 1.01,
+      "how_applied": "per delivery or same-day OCPU",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Residential Surcharge (US)",
+      "category": null,
+      "rate": 0.505,
+      "how_applied": "per delivery or same-day OCPU",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Residential Surcharge (Import)",
+      "category": null,
+      "rate": 1.01,
+      "how_applied": "per delivery or same-day OCPU",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Saturday Delivery",
+      "category": null,
+      "rate": 29.1,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Undeliverable International Shipment Return",
+      "category": null,
+      "rate": 10.0,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Express\u00ae Early and UPS Worldwide Express Plus\u2122 Out of Service Area",
+      "category": null,
+      "rate": 12.0,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "UPS Premium Care\u00ae",
+      "category": null,
+      "rate": 15.0,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Quantum View\u00ae Manage for Importers CD",
+      "category": null,
+      "rate": 25.0,
+      "how_applied": "Per CD",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Express C.O.D.\u00ae",
+      "category": "C.O.D. Services",
+      "rate": 14.0,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Regular C.O.D (Domestic)",
+      "category": "C.O.D. Services",
+      "rate": 9.5,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Regular C.O.D (To US)",
+      "category": "C.O.D. Services",
+      "rate": 12.0,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Confirmation Signature Required (Domestic)",
+      "category": "Delivery Confirmation / Signature Services",
+      "rate": 7.0,
+      "how_applied": "per domestic package or international shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Delivery Confirmation Adult Signature Required (Domestic)",
+      "category": "Delivery Confirmation / Signature Services",
+      "rate": 9.1,
+      "how_applied": "per domestic package or international shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Delivery Confirmation Signature Required (International) (EXPORT/IMPORT)",
+      "category": "Delivery Confirmation / Signature Services",
+      "rate": 7.0,
+      "how_applied": "per domestic package or international shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Delivery Confirmation Adult Signature Required (International)",
+      "category": "Delivery Confirmation / Signature Services",
+      "rate": 9.1,
+      "how_applied": "per domestic package or international shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Automatic Daily Pickup - Weekly Service Charge",
+      "category": "Pickup Services",
+      "rate": "$8.10 if \u2265$50, $16.20 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Automatic Day Specific Pickup - 4 Days - Weekly Service Charge",
+      "category": "Pickup Services",
+      "rate": "$7.00 if \u2265$50, $13.00 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Automatic Day Specific Pickup - 3 Days - Weekly Service Charge",
+      "category": "Pickup Services",
+      "rate": "$6.00 if \u2265$50, $9.75 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Automatic Day Specific Pickup - 2 Days - Weekly Service Charge",
+      "category": "Pickup Services",
+      "rate": "$4.00 if \u2265$50, $6.50 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Automatic Day Specific Pickup - 1 Day - Weekly Service Charge",
+      "category": "Pickup Services",
+      "rate": "$2.00 if \u2265$50, $3.25 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "On-Route Pickup",
+      "category": "Pickup Services",
+      "rate": "$7.85 if \u2265$50, $15.00 if <$50 in weekly UPS billing charge",
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Smart Pickup\u2122",
+      "category": "Pickup Services",
+      "rate": 8.15,
+      "how_applied": "per weekly invoice",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS On-Call Pickup\u00ae service - same day phone-in requests",
+      "category": "Pickup Services",
+      "rate": 4.9,
+      "how_applied": "per request",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "UPS On-Call Pickup\u00ae service - same day web requests",
+      "category": "Pickup Services",
+      "rate": 3.35,
+      "how_applied": "per request",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "UPS On-Call Pickup\u00ae service - future day phone-in",
+      "category": "Pickup Services",
+      "rate": 3.05,
+      "how_applied": "per request",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "UPS On-Call Pickup\u00ae service - future day web requests",
+      "category": "Pickup Services",
+      "rate": 1.5,
+      "how_applied": "per request",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Print Return Label",
+      "category": "UPS Returns\u00ae Services",
+      "rate": "Waived",
+      "how_applied": "per label used",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Electronic Return Label (DOMESTIC)",
+      "category": "UPS Returns\u00ae Services",
+      "rate": "Waived",
+      "how_applied": "per label used",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Print and Mail Return Label (DOMESTIC)",
+      "category": "UPS Returns\u00ae Services",
+      "rate": 1.8,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "1 UPS Pickup Attempt",
+      "category": "UPS Returns\u00ae Services",
+      "rate": 8.4,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "3 UPS Pickup Attempts",
+      "category": "UPS Returns\u00ae Services",
+      "rate": 24.4,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Print Label",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 1.15,
+      "how_applied": "per label used",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Electronic Label",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 1.75,
+      "how_applied": "per label used",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Print and Mail Label",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 3.5,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "1 UPS Pickup Attempt",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 8.4,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "3 UPS Pickup Attempts",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 24.4,
+      "how_applied": "per label",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Commercial Invoice Removal",
+      "category": "UPS Import Control\u00ae Services",
+      "rate": 20.0,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Domestic Shipments",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $6.30 / package or $52.50 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "US Standard Shipments",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $6.30 / package or $52.50 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Domestic Air Shipments - Accessible",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $10.10 / package or $84.00 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Domestic Air Shipments - Inaccessible",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $6.30 / package or $52.50 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "International Air Shipments - Accessible",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $15.25 / package or $126.00 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "International Air Shipments - Inaccessible",
+      "category": "Dangerous Goods Services",
+      "rate": "The greater of $10.10 / package or $84.00 / shipment",
+      "how_applied": "per package or shipment",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Dry Ice Air-Service Shipments",
+      "category": "Dangerous Goods Services",
+      "rate": 5.0,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Standard shipments within Canada",
+      "category": "UPS carbon neutral",
+      "rate": 0.05,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Standard shipments to the U.S.",
+      "category": "UPS carbon neutral",
+      "rate": 0.1,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Express Early, UPS Express and UPS Express Saver and UPS Expedited shipments within Canada",
+      "category": "UPS carbon neutral",
+      "rate": 0.2,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "UPS Express Early, UPS Express, UPS Express Saver\u00ae, UPS Expedited\u00ae and UPS 3 Day Select\u00ae shipments to international destinations including the U.S.",
+      "category": "UPS carbon neutral",
+      "rate": 0.75,
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Domestic Delivery Area Surcharge",
+      "category": "Delivery Area Surcharges",
+      "rate": 1.62,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Domestic Delivery Area Surcharge \u2013 Extended",
+      "category": "Delivery Area Surcharges",
+      "rate": 5.91,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Domestic Delivery Area Surcharge \u2013 Remote",
+      "category": "Delivery Area Surcharges",
+      "rate": 7.125,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Domestic  Delivery Area Surcharge \u2013 Super Remote",
+      "category": "Delivery Area Surcharges",
+      "rate": 106.75,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "U.S. Extended Area Surcharge",
+      "category": "Delivery Area Surcharges",
+      "rate": "Waived",
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "International Extended Area Surcharge (Import)",
+      "category": "Delivery Area Surcharges",
+      "rate": "The greater of $15.00 or $16.50 / shipment or $0.15 or $0.17 / pound ($0.34 or $0.37 / kilogram)",
+      "how_applied": "per shipment or pound/kilogram",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Deliver to Another Address",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$5.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Deliver to Another Address",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$6.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Deliver to a UPS Access Point\u00ae Location",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$0.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Deliver to a UPS Access Point\u00ae Location",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$6.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Reschedule Delivery",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$5.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Request (DCR) - Reschedule Delivery",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$6.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Option (UPS My Choice DCO) - Deliver to Another Address",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$2.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Delivery Change Option (UPS My Choice DCO) - Reschedule Delivery",
+      "category": "Delivery Change Services (Consignee Services)",
+      "rate": "$2.00 web (additional transportation charges may apply)",
+      "how_applied": "per package",
+      "fuel_surcharge_applicable": false
+    },
+    {
+      "name": "Ship to a UPS Access Point Location (S2AP -- D2R/R2R)",
+      "category": "UPS Access Point Services",
+      "rate": 0.0,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": true
+    },
+    {
+      "name": "S2AP - Deliver to Addressee Only",
+      "category": "UPS Access Point Services",
+      "rate": 3.75,
+      "how_applied": "per shipment",
+      "fuel_surcharge_applicable": false
+    }
+  ],
+  "fuel_surcharge_notes": [
+    "Fuel Surcharge Incentives",
+    "UPS Express Early \u00ae - Domestic - Fuel Surcharge - Incentives Off Effective Rates - 15 %",
+    "UPS Express \u00ae - Domestic - Fuel Surcharge - Incentives Off Effective Rates -  15 %",
+    "UPS Express Saver \u00ae - Domestic - Fuel Surcharge - Incentives Off Effective Rates - 15 %",
+    "UPS Expedited \u00ae - Domestic - Fuel Surcharge - Incentives Off Effective Rates - 15 %",
+    "UPS Standard \u00ae - Fuel Surcharge - Incentives Off Effective Rates - 15 %",
+    "UPS Worldwide Express Early - Export - Fuel Surcharge - Incentives Off Effective Rates - 50 %",
+    "UPS 3 Day Select - Fuel Surcharge - Incentives Off Effective Rates - 50 %",
+    "UPS Worldwide Express  - Export - Fuel Surcharge - Incentives Off Effective Rates - 50 %",
+    "UPS Worldwide Express Saver - Export - Fuel Surcharge - Incentives Off Effective Rates - 50 %",
+    "UPS Worldwide Expedited  - Export - Fuel Surcharge - Incentives Off Effective Rates - 50 %",
+    "UPS Standard \u00ae - Export - Fuel Surcharge - Incentives Off Effective Rates - 50 %"
+  ]
+}

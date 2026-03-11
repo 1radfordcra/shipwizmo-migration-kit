@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broad Reach — Customer Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Modal Overlay -->
+  <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h3 id="modal-title"></h3>
+        <button class="modal-close" onclick="closeModal()" aria-label="Close modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- App Root -->
+  <div id="app"></div>
+
+  <script src="./app.js"></script>
+  <script src="./mock_client_data.js"></script>
+  <script>
+    // Override API calls for Sarah's account with mock data
+    const originalApi = window.api;
+    window.api = function(path, opts) {
+      // Intercept client data fetch for Sarah (user ID 1)
+      if (window.state && window.state.userId === 1 && path === '/clients/1') {
+        return Promise.resolve(window._MOCK_CLIENT_DATA);
+      }
+      // Fall back to real API for other calls
+      return originalApi(path, opts);
+    };
+  </script>
+</body>
+</html>

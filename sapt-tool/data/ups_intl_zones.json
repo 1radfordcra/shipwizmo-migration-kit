@@ -1,0 +1,5003 @@
+{
+  "country_zones": [
+    {
+      "country": "Afghanistan",
+      "iso": "AF",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Aland Islands",
+      "iso": "AX",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Albania",
+      "iso": "AL",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Algeria",
+      "iso": "DZ",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "American Samoa",
+      "iso": "AS",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Andorra",
+      "iso": "AD",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Angola",
+      "iso": "AO",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Anguilla",
+      "iso": "AI",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "iso": "AG",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Argentina",
+      "iso": "AR",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Armenia",
+      "iso": "AM",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Aruba",
+      "iso": "AW",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Australia",
+      "iso": "AU",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Austria",
+      "iso": "AT",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Azerbaijan",
+      "iso": "AZ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Azores (Portugal)",
+      "iso": "PT",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bahamas",
+      "iso": "BS",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bahrain",
+      "iso": "BH",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bangladesh",
+      "iso": "BD",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Barbados",
+      "iso": "BB",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Belarus",
+      "iso": "BY",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Belgium",
+      "iso": "BE",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Belize",
+      "iso": "BZ",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Benin",
+      "iso": "BJ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bermuda",
+      "iso": "BM",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bolivia",
+      "iso": "BO",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bonaire",
+      "iso": "BQ",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bosnia",
+      "iso": "BA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Botswana",
+      "iso": "BW",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Brazil",
+      "iso": "BR",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "British Virgin Islands",
+      "iso": "VG",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Brunei",
+      "iso": "BN",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Bulgaria",
+      "iso": "BG",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Burkina Faso",
+      "iso": "BF",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Burundi",
+      "iso": "BI",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cambodia",
+      "iso": "KH",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cameroon",
+      "iso": "CM",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Canary Islands (Spain)",
+      "iso": "ES",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cape Verde",
+      "iso": "CV",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cayman Islands",
+      "iso": "KY",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Central African Republic",
+      "iso": "CF",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Chad",
+      "iso": "TD",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Channel Islands Guernsey",
+      "iso": null,
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Chile",
+      "iso": "CL",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "China, People\u2019s Republic of",
+      "iso": "CN",
+      "worldwide_express": 912,
+      "worldwide_saver": 412,
+      "worldwide_expedited_west": 642,
+      "worldwide_expedited_east": 612,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Colombia",
+      "iso": "CO",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Comoros",
+      "iso": "KM",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Congo, Democratic Republic of",
+      "iso": "CD",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Congo, Republic of",
+      "iso": "CG",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Costa Rica",
+      "iso": "CR",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "C\u00f4te d\u2019Ivoire (Ivory Coast)",
+      "iso": "CI",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Croatia",
+      "iso": "HR",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cura\u00e7ao",
+      "iso": "CW",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Cyprus",
+      "iso": "CY",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Czech Republic",
+      "iso": "CZ",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Denmark",
+      "iso": "DK",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Djibouti",
+      "iso": "DJ",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Dominica",
+      "iso": "DM",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Dominican Republic",
+      "iso": "DO",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ecuador",
+      "iso": "EC",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Egypt",
+      "iso": "EG",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "El Salvador",
+      "iso": "SV",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "England (United Kingdom)",
+      "iso": "GB",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Equatorial Guinea",
+      "iso": "GQ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Eritrea",
+      "iso": "ER",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Estonia",
+      "iso": "EE",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ethiopia",
+      "iso": "ET",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Faeroe Islands (Denmark)",
+      "iso": "FO",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Finland",
+      "iso": "FI",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "France",
+      "iso": "FR",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "French Guiana",
+      "iso": "GF",
+      "worldwide_express": 907,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Gabon",
+      "iso": "GA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Gambia",
+      "iso": "GM",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Georgia",
+      "iso": "GE",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Germany",
+      "iso": "DE",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ghana",
+      "iso": "GH",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Gibraltar",
+      "iso": "GI",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Great Britain (United Kingdom)",
+      "iso": "GB",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Greece",
+      "iso": "GR",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Greenland (Denmark)",
+      "iso": "GL",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Grenada",
+      "iso": "GD",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guadeloupe",
+      "iso": "GP",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guam",
+      "iso": "GU",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guatemala",
+      "iso": "GT",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guernsey",
+      "iso": "GG",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guinea",
+      "iso": "GN",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guinea-Bissau",
+      "iso": "GW",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Guyana",
+      "iso": "GY",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Haiti",
+      "iso": "HT",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Holland (Netherlands)",
+      "iso": "NL",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Honduras",
+      "iso": "HN",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Hong Kong",
+      "iso": "HK",
+      "worldwide_express": 909,
+      "worldwide_saver": 409,
+      "worldwide_expedited_west": 639,
+      "worldwide_expedited_east": 609,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Hungary",
+      "iso": "HU",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Iceland",
+      "iso": "IS",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "India",
+      "iso": "IN",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Indonesia",
+      "iso": "ID",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Iraq",
+      "iso": "IQ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ireland, Republic of",
+      "iso": "IE",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Israel",
+      "iso": "IL",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Italy",
+      "iso": "IT",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ivory Coast (C\u00f4te d\u2019Ivoire)",
+      "iso": "CI",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Jamaica",
+      "iso": "JM",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Japan",
+      "iso": "JP",
+      "worldwide_express": 913,
+      "worldwide_saver": 413,
+      "worldwide_expedited_west": 643,
+      "worldwide_expedited_east": 613,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Jersey",
+      "iso": "JE",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Jordan",
+      "iso": "JO",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Kazakhstan",
+      "iso": "KZ",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Kenya",
+      "iso": "KE",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Korea, South",
+      "iso": "KR",
+      "worldwide_express": 913,
+      "worldwide_saver": 413,
+      "worldwide_expedited_west": 643,
+      "worldwide_expedited_east": 613,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Kosovo",
+      "iso": "KV",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Kuwait",
+      "iso": "KW",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Kyrgyzstan",
+      "iso": "KG",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Laos",
+      "iso": "LA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Latvia",
+      "iso": "LV",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Lebanon",
+      "iso": "LB",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Lesotho",
+      "iso": "LS",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Liberia",
+      "iso": "LR",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Libya",
+      "iso": "LY",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Liechtenstein",
+      "iso": "LI",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Lithuania",
+      "iso": "LT",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Luxembourg",
+      "iso": "LU",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Macau",
+      "iso": "MO",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Macedonia (FYROM)",
+      "iso": "MK",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Madagascar",
+      "iso": "MG",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Madeira (Portugal)",
+      "iso": "PT",
+      "worldwide_express": null,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Malawi",
+      "iso": "MW",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Malaysia",
+      "iso": "MY",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Maldives",
+      "iso": "MV",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mali",
+      "iso": "ML",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Malta",
+      "iso": "MT",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Martinique",
+      "iso": "MQ",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mauritania",
+      "iso": "MR",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mauritius",
+      "iso": "MU",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mayotte",
+      "iso": "YT",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mexico",
+      "iso": "MX",
+      "worldwide_express": 84,
+      "worldwide_saver": 484,
+      "worldwide_expedited_west": 74,
+      "worldwide_expedited_east": 74,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Moldova",
+      "iso": "MD",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Monaco",
+      "iso": "MC",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mongolia",
+      "iso": "MN",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Montenegro",
+      "iso": "ME",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Montserrat",
+      "iso": "MS",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Morocco",
+      "iso": "MA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Mozambique",
+      "iso": "MZ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Myanmar",
+      "iso": "MM",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Namibia",
+      "iso": "NA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Nepal",
+      "iso": "NP",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Netherlands (Holland)",
+      "iso": "NL",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "New Caledonia",
+      "iso": "NC",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "New Zealand",
+      "iso": "NZ",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Nicaragua",
+      "iso": "NI",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Niger",
+      "iso": "NE",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Nigeria",
+      "iso": "NG",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Norfolk Island",
+      "iso": "NF",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Northern Mariana Islands",
+      "iso": "MP",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Norway",
+      "iso": "NO",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Oman",
+      "iso": "OM",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Pakistan",
+      "iso": "PK",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Panama",
+      "iso": "PA",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Paraguay",
+      "iso": "PY",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Peru",
+      "iso": "PE",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Philippines",
+      "iso": "PH",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Poland",
+      "iso": "PL",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Portugal",
+      "iso": "PT",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Qatar",
+      "iso": "QA",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "R\u00e9union",
+      "iso": "RE",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Romania",
+      "iso": "RO",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Rota (Northern Mariana Islands)",
+      "iso": "MP",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Russia",
+      "iso": "RU",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Rwanda",
+      "iso": "RW",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Saba",
+      "iso": "BQ",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Saipan (Northern Mariana Islands)",
+      "iso": "MP",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Samoa",
+      "iso": "WS",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "San Marino",
+      "iso": "SM",
+      "worldwide_express": null,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso": "SA",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Scotland (United Kingdom)",
+      "iso": "GB",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Senegal",
+      "iso": "SN",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Serbia",
+      "iso": "RS",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Seychelles",
+      "iso": "SC",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Sierra Leone",
+      "iso": "SL",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Singapore",
+      "iso": "SG",
+      "worldwide_express": 909,
+      "worldwide_saver": 409,
+      "worldwide_expedited_west": 639,
+      "worldwide_expedited_east": 609,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Slovakia",
+      "iso": "SK",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Slovenia",
+      "iso": "SI",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "South Africa",
+      "iso": "ZA",
+      "worldwide_express": 907,
+      "worldwide_saver": 407,
+      "worldwide_expedited_west": 637,
+      "worldwide_expedited_east": 607,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Spain",
+      "iso": "ES",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Sri Lanka",
+      "iso": "LK",
+      "worldwide_express": 911,
+      "worldwide_saver": 411,
+      "worldwide_expedited_west": 641,
+      "worldwide_expedited_east": 611,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Barth\u00e9lemy",
+      "iso": "BL",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Christopher (St. Kitts and Nevis)",
+      "iso": "KN",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Croix (U.S. Virgin Islands)",
+      "iso": "VI",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Eustatius",
+      "iso": "BQ",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. John (U.S. Virgin Islands)",
+      "iso": "VI",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Kitts and Nevis",
+      "iso": "KN",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Lucia",
+      "iso": "LC",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Maarten",
+      "iso": "SX",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Martin",
+      "iso": "SX",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Thomas (U.S. Virgin Islands)",
+      "iso": "VI",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "St. Vincent and the Grenadines",
+      "iso": "VC",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Suriname",
+      "iso": "SR",
+      "worldwide_express": 906,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Swaziland",
+      "iso": "SZ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Sweden",
+      "iso": "SE",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Switzerland",
+      "iso": "CH",
+      "worldwide_express": 903,
+      "worldwide_saver": 403,
+      "worldwide_expedited_west": 633,
+      "worldwide_expedited_east": 603,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Taiwan",
+      "iso": "TW",
+      "worldwide_express": 909,
+      "worldwide_saver": 409,
+      "worldwide_expedited_west": 639,
+      "worldwide_expedited_east": 609,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Tajikistan",
+      "iso": "TJ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Tanzania",
+      "iso": "TZ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Thailand",
+      "iso": "TH",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Togo",
+      "iso": "TG",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Tortola (British Virgin Islands)",
+      "iso": "VG",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "iso": "TT",
+      "worldwide_express": 902,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Tunisia",
+      "iso": "TN",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Turkey",
+      "iso": "TR",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Turkmenistan",
+      "iso": "TM",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Turks and Caicos Islands",
+      "iso": "TC",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "U.S. Virgin Islands",
+      "iso": "VI",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Uganda",
+      "iso": "UG",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Ukraine",
+      "iso": "UA",
+      "worldwide_express": 908,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso": "AE",
+      "worldwide_express": 905,
+      "worldwide_saver": 405,
+      "worldwide_expedited_west": 635,
+      "worldwide_expedited_east": 605,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "United Kingdom",
+      "iso": "GB",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Uruguay",
+      "iso": "UY",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Uzbekistan",
+      "iso": "UZ",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Vatican City (Italy)",
+      "iso": "VA",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Venezuela",
+      "iso": "VE",
+      "worldwide_express": null,
+      "worldwide_saver": 406,
+      "worldwide_expedited_west": 636,
+      "worldwide_expedited_east": 606,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Vietnam",
+      "iso": "VN",
+      "worldwide_express": 904,
+      "worldwide_saver": 404,
+      "worldwide_expedited_west": 634,
+      "worldwide_expedited_east": 604,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Virgin Gorda (British Virgin Islands)",
+      "iso": "VG",
+      "worldwide_express": null,
+      "worldwide_saver": 402,
+      "worldwide_expedited_west": 632,
+      "worldwide_expedited_east": 602,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Wales (United Kingdom)",
+      "iso": "GB",
+      "worldwide_express": 901,
+      "worldwide_saver": 401,
+      "worldwide_expedited_west": 631,
+      "worldwide_expedited_east": 601,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Za\u00efre (Congo, Democratic Republic of)",
+      "iso": "CD",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Zambia",
+      "iso": "ZM",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Zimbabwe",
+      "iso": "ZW",
+      "worldwide_express": null,
+      "worldwide_saver": 408,
+      "worldwide_expedited_west": 638,
+      "worldwide_expedited_east": 608,
+      "standard_to_canada": {}
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 52,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 55,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 51,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 52,
+        "MI,OH": 51,
+        "CO,MT,WY": 53,
+        "ID,OR,WA": 53,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 54,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 55,
+        "MI,OH": 54,
+        "CO,MT,WY": 56,
+        "ID,OR,WA": 56,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 52,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 51,
+        "MI,OH": 51,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 52,
+        "ND,NE,SD": 51,
+        "NM,TX": 52,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 52,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 51,
+        "MI,OH": 51,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 52,
+        "ND,NE,SD": 51,
+        "NM,TX": 52,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 52,
+        "AZ, CA,NV, UT": 53,
+        "IL,IN,KY": 51,
+        "IA,MN,WI": 51,
+        "MI,OH": 51,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 52,
+        "ND,NE,SD": 51,
+        "NM,TX": 52,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 52
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 55,
+        "AZ, CA,NV, UT": 56,
+        "IL,IN,KY": 54,
+        "IA,MN,WI": 54,
+        "MI,OH": 54,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 55,
+        "ND,NE,SD": 54,
+        "NM,TX": 55,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 55
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 482,
+      "worldwide_saver": 482,
+      "worldwide_expedited_west": 72,
+      "worldwide_expedited_east": 72,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 53,
+        "AZ, CA,NV, UT": 52,
+        "IL,IN,KY": 53,
+        "IA,MN,WI": 53,
+        "MI,OH": 53,
+        "CO,MT,WY": 52,
+        "ID,OR,WA": 51,
+        "ND,NE,SD": 52,
+        "NM,TX": 53,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 53
+      }
+    },
+    {
+      "country": "Canada",
+      "iso": "CA",
+      "worldwide_express": 481,
+      "worldwide_saver": 481,
+      "worldwide_expedited_west": 71,
+      "worldwide_expedited_east": 71,
+      "standard_to_canada": {
+        "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV": 56,
+        "AZ, CA,NV, UT": 55,
+        "IL,IN,KY": 56,
+        "IA,MN,WI": 56,
+        "MI,OH": 56,
+        "CO,MT,WY": 55,
+        "ID,OR,WA": 54,
+        "ND,NE,SD": 55,
+        "NM,TX": 56,
+        "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA": 56
+      }
+    }
+  ],
+  "canada_standard_zones": {},
+  "mexico_standard_zones": [
+    {
+      "zip_range": "00400-00599",
+      "zone": 37
+    },
+    {
+      "zip_range": "01000-03999",
+      "zone": 37
+    },
+    {
+      "zip_range": "04000-04999",
+      "zone": 38
+    },
+    {
+      "zip_range": "05000-08999",
+      "zone": 37
+    },
+    {
+      "zip_range": "10000-14699",
+      "zone": 37
+    },
+    {
+      "zip_range": "14700-14799",
+      "zone": 36
+    },
+    {
+      "zip_range": "14800-14999",
+      "zone": 37
+    },
+    {
+      "zip_range": "15000-16899",
+      "zone": 36
+    },
+    {
+      "zip_range": "16900-17299",
+      "zone": 37
+    },
+    {
+      "zip_range": "17300-17499",
+      "zone": 36
+    },
+    {
+      "zip_range": "17500-19999",
+      "zone": 37
+    },
+    {
+      "zip_range": "20000-20999",
+      "zone": 36
+    },
+    {
+      "zip_range": "24000-28699",
+      "zone": 36
+    },
+    {
+      "zip_range": "28700-28999",
+      "zone": 35
+    },
+    {
+      "zip_range": "29000-29599",
+      "zone": 36
+    },
+    {
+      "zip_range": "29600-29699",
+      "zone": 35
+    },
+    {
+      "zip_range": "29700-29799",
+      "zone": 36
+    },
+    {
+      "zip_range": "29800-29899",
+      "zone": 35
+    },
+    {
+      "zip_range": "29900-29999",
+      "zone": 36
+    },
+    {
+      "zip_range": "30000-31299",
+      "zone": 35
+    },
+    {
+      "zip_range": "31300-31499",
+      "zone": 36
+    },
+    {
+      "zip_range": "31500-32699",
+      "zone": 35
+    },
+    {
+      "zip_range": "32700-33499",
+      "zone": 36
+    },
+    {
+      "zip_range": "33500-33899",
+      "zone": 35
+    },
+    {
+      "zip_range": "33900-33999",
+      "zone": 36
+    },
+    {
+      "zip_range": "34100-34199",
+      "zone": 36
+    },
+    {
+      "zip_range": "34200-34699",
+      "zone": 35
+    },
+    {
+      "zip_range": "34700-34999",
+      "zone": 36
+    },
+    {
+      "zip_range": "35000-36499",
+      "zone": 35
+    },
+    {
+      "zip_range": "36500-36699",
+      "zone": 34
+    },
+    {
+      "zip_range": "36700-36899",
+      "zone": 35
+    },
+    {
+      "zip_range": "36900-36999",
+      "zone": 34
+    },
+    {
+      "zip_range": "37000-37599",
+      "zone": 35
+    },
+    {
+      "zip_range": "37600-37699",
+      "zone": 36
+    },
+    {
+      "zip_range": "37700-38699",
+      "zone": 35
+    },
+    {
+      "zip_range": "38700-38799",
+      "zone": 34
+    },
+    {
+      "zip_range": "38800-38899",
+      "zone": 35
+    },
+    {
+      "zip_range": "38900-39699",
+      "zone": 34
+    },
+    {
+      "zip_range": "39700-40999",
+      "zone": 35
+    },
+    {
+      "zip_range": "41000-41299",
+      "zone": 36
+    },
+    {
+      "zip_range": "41300-41499",
+      "zone": 35
+    },
+    {
+      "zip_range": "41500-41899",
+      "zone": 36
+    },
+    {
+      "zip_range": "42000-42799",
+      "zone": 35
+    },
+    {
+      "zip_range": "43000-45999",
+      "zone": 36
+    },
+    {
+      "zip_range": "46000-46299",
+      "zone": 35
+    },
+    {
+      "zip_range": "46300-46899",
+      "zone": 36
+    },
+    {
+      "zip_range": "46900-46999",
+      "zone": 35
+    },
+    {
+      "zip_range": "47000-47099",
+      "zone": 36
+    },
+    {
+      "zip_range": "47100-47299",
+      "zone": 35
+    },
+    {
+      "zip_range": "47300-47399",
+      "zone": 36
+    },
+    {
+      "zip_range": "47400-47999",
+      "zone": 35
+    },
+    {
+      "zip_range": "48000-49999",
+      "zone": 36
+    },
+    {
+      "zip_range": "50000-52099",
+      "zone": 35
+    },
+    {
+      "zip_range": "52100-52199",
+      "zone": 36
+    },
+    {
+      "zip_range": "52200-52899",
+      "zone": 35
+    },
+    {
+      "zip_range": "53000-53799",
+      "zone": 36
+    },
+    {
+      "zip_range": "53800-53899",
+      "zone": 35
+    },
+    {
+      "zip_range": "53900-56099",
+      "zone": 36
+    },
+    {
+      "zip_range": "56100-56199",
+      "zone": 35
+    },
+    {
+      "zip_range": "56200-56799",
+      "zone": 36
+    },
+    {
+      "zip_range": "57000-57199",
+      "zone": 35
+    },
+    {
+      "zip_range": "57200-57299",
+      "zone": 36
+    },
+    {
+      "zip_range": "57300-57399",
+      "zone": 35
+    },
+    {
+      "zip_range": "57400-59399",
+      "zone": 36
+    },
+    {
+      "zip_range": "59400-59699",
+      "zone": 37
+    },
+    {
+      "zip_range": "59700-59799",
+      "zone": 36
+    },
+    {
+      "zip_range": "59800-59999",
+      "zone": 37
+    },
+    {
+      "zip_range": "60000-60899",
+      "zone": 36
+    },
+    {
+      "zip_range": "60900-60999",
+      "zone": 35
+    },
+    {
+      "zip_range": "61000-61199",
+      "zone": 36
+    },
+    {
+      "zip_range": "61200-64799",
+      "zone": 35
+    },
+    {
+      "zip_range": "64800-64899",
+      "zone": 34
+    },
+    {
+      "zip_range": "64900-65599",
+      "zone": 35
+    },
+    {
+      "zip_range": "65600-65999",
+      "zone": 34
+    },
+    {
+      "zip_range": "66000-66699",
+      "zone": 35
+    },
+    {
+      "zip_range": "66700-66799",
+      "zone": 34
+    },
+    {
+      "zip_range": "66800-66999",
+      "zone": 35
+    },
+    {
+      "zip_range": "67000-67399",
+      "zone": 34
+    },
+    {
+      "zip_range": "67400-67799",
+      "zone": 35
+    },
+    {
+      "zip_range": "67800-67999",
+      "zone": 34
+    },
+    {
+      "zip_range": "68000-69399",
+      "zone": 35
+    },
+    {
+      "zip_range": "70000-70599",
+      "zone": 34
+    },
+    {
+      "zip_range": "70600-70699",
+      "zone": 33
+    },
+    {
+      "zip_range": "70700-72299",
+      "zone": 34
+    },
+    {
+      "zip_range": "72300-72499",
+      "zone": 35
+    },
+    {
+      "zip_range": "72500-73299",
+      "zone": 34
+    },
+    {
+      "zip_range": "73300-73399",
+      "zone": 32
+    },
+    {
+      "zip_range": "73400-74999",
+      "zone": 34
+    },
+    {
+      "zip_range": "75000-75499",
+      "zone": 33
+    },
+    {
+      "zip_range": "75500-75599",
+      "zone": 34
+    },
+    {
+      "zip_range": "75600-76499",
+      "zone": 33
+    },
+    {
+      "zip_range": "76500-76599",
+      "zone": 32
+    },
+    {
+      "zip_range": "76600-77799",
+      "zone": 33
+    },
+    {
+      "zip_range": "77800-78499",
+      "zone": 32
+    },
+    {
+      "zip_range": "78500-78599",
+      "zone": 33
+    },
+    {
+      "zip_range": "78600-78999",
+      "zone": 32
+    },
+    {
+      "zip_range": "79000-79499",
+      "zone": 34
+    },
+    {
+      "zip_range": "79500-79799",
+      "zone": 33
+    },
+    {
+      "zip_range": "79800-79999",
+      "zone": 34
+    },
+    {
+      "zip_range": "80000-82099",
+      "zone": 35
+    },
+    {
+      "zip_range": "82100-82199",
+      "zone": 36
+    },
+    {
+      "zip_range": "82200-82399",
+      "zone": 35
+    },
+    {
+      "zip_range": "82400-83499",
+      "zone": 36
+    },
+    {
+      "zip_range": "83500-83599",
+      "zone": 37
+    },
+    {
+      "zip_range": "83600-83799",
+      "zone": 36
+    },
+    {
+      "zip_range": "83800-83899",
+      "zone": 37
+    },
+    {
+      "zip_range": "84000-84499",
+      "zone": 36
+    },
+    {
+      "zip_range": "84500-84599",
+      "zone": 35
+    },
+    {
+      "zip_range": "84600-84799",
+      "zone": 36
+    },
+    {
+      "zip_range": "85000-86399",
+      "zone": 35
+    },
+    {
+      "zip_range": "86400-86499",
+      "zone": 36
+    },
+    {
+      "zip_range": "86500-87599",
+      "zone": 35
+    },
+    {
+      "zip_range": "87700-88599",
+      "zone": 34
+    },
+    {
+      "zip_range": "88900-93899",
+      "zone": 36
+    },
+    {
+      "zip_range": "93900-96099",
+      "zone": 37
+    },
+    {
+      "zip_range": "96100-96199",
+      "zone": 36
+    },
+    {
+      "zip_range": "97000-97899",
+      "zone": 37
+    },
+    {
+      "zip_range": "97900-97999",
+      "zone": 36
+    },
+    {
+      "zip_range": "98000-98699",
+      "zone": 37
+    },
+    {
+      "zip_range": "98800-99499",
+      "zone": 37
+    }
+  ],
+  "columns": {
+    "worldwide_express": 3,
+    "worldwide_saver": 4,
+    "worldwide_expedited_west": 5,
+    "worldwide_expedited_east": 6,
+    "canada_standard_by_state": {
+      "7": "CT, DC, DE,MA, MD, ME,NH, NJ, NY,PA, RI, VT, WV",
+      "8": "AZ, CA,NV, UT",
+      "9": "IL,IN,KY",
+      "10": "IA,MN,WI",
+      "11": "MI,OH",
+      "12": "CO,MT,WY",
+      "13": "ID,OR,WA",
+      "14": "ND,NE,SD",
+      "15": "NM,TX",
+      "16": "AL, AR, FL,GA, KS, LA,MO, MS, NC,OK, SC, TN, VA"
+    },
+    "mexico_zip_range": 18,
+    "mexico_standard_zone": 19
+  }
+}

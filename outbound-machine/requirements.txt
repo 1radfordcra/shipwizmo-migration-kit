@@ -1,0 +1,7 @@
+# Broad Reach Outbound Machine
+requests==2.31.0
+python-dotenv==1.0.1
+# For Azure Functions:
+azure-functions==1.18.0
+# For Azure Blob Storage (replace workspace file I/O):
+# azure-storage-blob==12.19.0

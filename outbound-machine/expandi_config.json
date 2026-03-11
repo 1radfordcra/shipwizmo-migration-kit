@@ -1,0 +1,32 @@
+{
+  "_comment": "MIGRATION: Replace placeholder values with actual Expandi API credentials.",
+  "_warning": "NEVER commit this file with real credentials. Use environment variables in production.",
+  "api_domain": "api.liaufa.com",
+  "api_domain_note": "This is the correct domain for Expandi's reversed webhook feature. Do NOT use api.expandi.io — that is the old/incorrect domain.",
+  "campaigns": {
+    "cold_dtc_savings": {
+      "campaign_id": 770808,
+      "name": "Cold DTC Savings",
+      "description": "Cold outreach to DTC ecommerce brands — LinkedIn connection requests with 10-word casual messages",
+      "webhook_url": "EXPANDI_CAMPAIGN_A_WEBHOOK",
+      "webhook_url_note": "Set via EXPANDI_CAMPAIGN_A_WEBHOOK environment variable. Format: https://api.liaufa.com/webhooks/reversed/{account_id}/{campaign_id}",
+      "status": "active"
+    },
+    "3pl_focused": {
+      "campaign_id": 770814,
+      "name": "3PL Focused",
+      "description": "Outreach targeting 3PL and fulfillment companies — LinkedIn connection requests emphasizing partnership opportunities",
+      "webhook_url": "EXPANDI_CAMPAIGN_B_WEBHOOK",
+      "webhook_url_note": "Set via EXPANDI_CAMPAIGN_B_WEBHOOK environment variable. Format: https://api.liaufa.com/webhooks/reversed/{account_id}/{campaign_id}",
+      "status": "active"
+    }
+  },
+  "rate_limits": {
+    "max_connections_per_day": 25,
+    "max_messages_per_day": 50,
+    "delay_between_actions_seconds": 60,
+    "note": "These are Expandi defaults for a warmed LinkedIn account. Adjust in Expandi dashboard, not here."
+  },
+  "linkedin_profile": "Craig Radford",
+  "sender_linkedin_url": "SET_VIA_EXPANDI_DASHBOARD"
+}

@@ -1,0 +1,42 @@
+# Deploy to Azure App Service
+# Auto-deploys to Azure on every push to main.
+# Required secret: AZURE_WEBAPP_PUBLISH_PROFILE
+name: Deploy to Azure
+
+on:
+  push:
+    branches: [main]
+
+env:
+  AZURE_WEBAPP_NAME: broadreach-customs-portal
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Zip deployment package
+        run: |
+          zip -r deploy.zip . \
+            -x '.env' '*.db' '__pycache__/*' '.git/*' \
+               '.github/*' 'tests/*' '*.pyc' '.replit' 'replit.nix'
+
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: deploy.zip

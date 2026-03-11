@@ -1,0 +1,153 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "description": "SAPT Tool (Shipping Analysis & Pricing Tool) \u2014 Python FastAPI + SQLite",
+    "_generator": {
+      "name": "ShipWizmo Migration Kit",
+      "version": "5.0.0"
+    }
+  },
+  "parameters": {
+    "webAppName": {
+      "type": "string",
+      "defaultValue": "broadreach-sapt-tool",
+      "metadata": {
+        "description": "Name for the App Service"
+      }
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]",
+      "metadata": {
+        "description": "Azure region"
+      }
+    },
+    "sku": {
+      "type": "string",
+      "defaultValue": "B1",
+      "allowedValues": [
+        "B1",
+        "B2",
+        "S1",
+        "S2",
+        "P1v3"
+      ],
+      "metadata": {
+        "description": "App Service Plan pricing tier"
+      }
+    },
+    "pythonVersion": {
+      "type": "string",
+      "defaultValue": "3.11",
+      "metadata": {
+        "description": "Python runtime version"
+      }
+    },
+    "googleClientId": {
+      "type": "string",
+      "defaultValue": "105648453442-gjnirc4fa4tmii07lt1lmd353serh4ng.apps.googleusercontent.com",
+      "metadata": {
+        "description": "Google OAuth Client ID"
+      }
+    },
+    "googleClientSecret": {
+      "type": "secureString",
+      "metadata": {
+        "description": "Google OAuth Client Secret"
+      }
+    },
+    "adminEmail": {
+      "type": "string",
+      "defaultValue": "craig@shipwizmo.com",
+      "metadata": {
+        "description": "Admin email for the SAPT Tool"
+      }
+    },
+    "corsOrigins": {
+      "type": "string",
+      "defaultValue": "*",
+      "metadata": {
+        "description": "Comma-separated list of allowed CORS origins. Set to your frontend domain in production."
+      }
+    },
+    "adminPassword": {
+      "type": "secureString",
+      "defaultValue": "",
+      "metadata": {
+        "description": "Admin default password. If blank, a random UUID is generated on first boot (check server logs)."
+      }
+    }
+  },
+  "variables": {
+    "appServicePlanName": "[concat(parameters('webAppName'), '-plan')]"
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Web/serverfarms",
+      "apiVersion": "2022-09-01",
+      "name": "[variables('appServicePlanName')]",
+      "location": "[parameters('location')]",
+      "sku": {
+        "name": "[parameters('sku')]"
+      },
+      "kind": "linux",
+      "properties": {
+        "reserved": true
+      }
+    },
+    {
+      "type": "Microsoft.Web/sites",
+      "apiVersion": "2022-09-01",
+      "name": "[parameters('webAppName')]",
+      "location": "[parameters('location')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]"
+      ],
+      "kind": "app,linux",
+      "properties": {
+        "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', variables('appServicePlanName'))]",
+        "siteConfig": {
+          "linuxFxVersion": "[concat('PYTHON|', parameters('pythonVersion'))]",
+          "appCommandLine": "uvicorn api_server:app --host 0.0.0.0 --port 8000",
+          "appSettings": [
+            {
+              "name": "GOOGLE_CLIENT_ID",
+              "value": "[parameters('googleClientId')]"
+            },
+            {
+              "name": "GOOGLE_CLIENT_SECRET",
+              "value": "[parameters('googleClientSecret')]"
+            },
+            {
+              "name": "ADMIN_EMAIL",
+              "value": "[parameters('adminEmail')]"
+            },
+            {
+              "name": "SCM_DO_BUILD_DURING_DEPLOYMENT",
+              "value": "true"
+            },
+            {
+              "name": "PORT",
+              "value": "8000"
+            },
+            {
+              "name": "CORS_ORIGINS",
+              "value": "[parameters('corsOrigins')]"
+            },
+            {
+              "name": "ADMIN_DEFAULT_PASSWORD",
+              "value": "[parameters('adminPassword')]"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outputs": {
+    "siteUrl": {
+      "type": "string",
+      "value": "[concat('https://', reference(parameters('webAppName')).defaultHostName)]"
+    }
+  }
+}

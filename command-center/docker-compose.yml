@@ -1,0 +1,16 @@
+# Broad Reach Command Center — Local Development
+# Usage: docker compose up
+# Access: http://localhost:8000 (serves both dashboard AND API proxy)
+# The API server serves index.html at / and handles /api/* routes
+
+services:
+  command-center-api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - HUBSPOT_PAT=${HUBSPOT_PAT:-}
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+    restart: unless-stopped

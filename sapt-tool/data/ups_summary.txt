@@ -1,0 +1,128 @@
+UPS Rate Card Parse Summary
+============================================================
+Generated: 2026-03-04
+
+FILE: ups_us_bid_rates.json
+  Path: /home/user/workspace/br-portal/data/ups_us_bid_rates.json
+  Size: 831,404 bytes (811.9 KB)
+  Services: 39
+    - UPS Next Day Air ® Residential: 10 zones, 152 weights
+    - UPS Next Day Air ® Commercial: 10 zones, 152 weights
+    - UPS Next Day Air Saver ® Residential: 7 zones, 152 weights
+    - UPS Next Day Air Saver ® Commercial: 7 zones, 152 weights
+    - UPS 2nd Day Air A.M. ® Commercial: 7 zones, 152 weights
+    - UPS 2nd Day Air ® Residential: 10 zones, 152 weights
+    - UPS 2nd Day Air ® Commercial: 10 zones, 152 weights
+    - UPS 3 Day Select ® Residential: 7 zones, 151 weights
+    - UPS 3 Day Select ® Commercial: 7 zones, 151 weights
+    - UPS ® Ground Commercial: 10 zones, 151 weights
+    - UPS ® Ground Residential: 10 zones, 151 weights
+    - UPS Ground Saver ® - 1lb or greater: 12 zones, 71 weights
+    - UPS Ground Saver ® - Less than 1lb: 12 zones, 16 weights
+    - Export UPS Worldwide Express ®: 17 zones, 87 weights
+    - Export UPS Worldwide Express Saver ®: 17 zones, 87 weights
+    - Export UPS Worldwide Expedited ®: 29 zones, 86 weights
+    - Export UPS Standard TM: US to Canada: 6 zones, 88 weights
+    - Export UPS Standard TM: US to Mexico: 8 zones, 87 weights
+    - UPS Worldwide Express Freight Midday TM-Door to Door - Export - Multi Piece - Bill Shipper: 17 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Hold at Location - Export - Multi Piece - Bill Shipper: 17 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Drop Off - Export - Multi Piece - Bill Shipper: 17 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Drop Off and Hold at Location - Export - Multi Piece - Bill Shipper: 17 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Door to Door - Export - Multi Piece - Prepaid: 17 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Hold at Location - Export - Multi Piece - Prepaid: 17 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Drop Off - Export - Multi Piece - Prepaid: 17 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Drop Off and Hold at Location - Export - Multi Piece - Prepaid: 17 zones, 3 weights
+    - Import UPS Worldwide Express ®: 16 zones, 87 weights
+    - Import UPS Worldwide Express Saver ®: 16 zones, 87 weights
+    - Import UPS Worldwide Expedited ®: 28 zones, 86 weights
+    - Import UPS Standard TM: Canada to US: 3 zones, 86 weights
+    - Import UPS Standard TM: Mexico to US: 8 zones, 87 weights
+    - UPS Worldwide Express Freight Midday TM-Door to Door - Import - Multi Piece - Bill Receiver: 16 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Hold at Location - Import - Multi Piece - Bill Receiver: 16 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Drop Off - Import - Multi Piece - Bill Receiver: 16 zones, 3 weights
+    - UPS Worldwide Express Freight Midday TM-Drop Off and Hold at Location - Import - Multi Piece - Bill Receiver: 16 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Door to Door - Import - Multi Piece - Freight Collect: 16 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Hold at Location - Import - Multi Piece - Freight Collect: 16 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Drop Off - Import - Multi Piece - Freight Collect: 16 zones, 3 weights
+    - UPS Worldwide Express Freight TM-Drop Off and Hold at Location - Import - Multi Piece - Freight Collect: 16 zones, 3 weights
+
+FILE: ups_us_list_rates.json
+  Path: /home/user/workspace/br-portal/data/ups_us_list_rates.json
+  Size: 660,341 bytes (644.9 KB)
+  Sheets: 22
+    - Next Day Comm Chart: 10 zones, 154 weights
+    - Next Day Resi Chart: 10 zones, 155 weights
+    - Saver Comm Chart: 7 zones, 154 weights
+    - Saver Resi Chart: 7 zones, 155 weights
+    - 2nd Day AM Comm Chart: 7 zones, 154 weights
+    - 2nd Day AM Resi Chart: 7 zones, 153 weights
+    - 2nd Day Comm Chart: 10 zones, 154 weights
+    - 2nd Day Resi Chart: 10 zones, 155 weights
+    - 3 Day Select Comm Chart: 7 zones, 153 weights
+    - 3 Day Select Resi Chart: 7 zones, 154 weights
+    - Ground Comm Chart: 10 zones, 153 weights
+    - Ground Resi Chart: 10 zones, 154 weights
+    - 1DA List Rates: 10 zones, 151 weights
+    - Saver List Rates: 7 zones, 151 weights
+    - 2DA AM List Rates: 7 zones, 151 weights
+    - 2DA List Rates: 10 zones, 151 weights
+    - 3DS List Rates: 7 zones, 150 weights
+    - Ground Comm List Rates: 10 zones, 150 weights
+    - Ground Resi List Rates: 10 zones, 150 weights
+    - SURCHARGES: (special data)
+    - Ground CWT Chart: 10 zones, 3 weights
+    - Ground CWT List: (special data)
+
+FILE: ups_canada_rates.json
+  Path: /home/user/workspace/br-portal/data/ups_canada_rates.json
+  Size: 691,408 bytes (675.2 KB)
+  Services: 24
+    - Dom Early (UPS Express® Early): 13 zones, 156 weights
+    - Dom Express (UPS Express®): 13 zones, 156 weights
+    - Dom Saver (UPS Express Saver® Shipping): 13 zones, 156 weights
+    - Dom Expedited (UPS Expedited®): 13 zones, 156 weights
+    - Dom Standard (UPS Standard® - Multi): 13 zones, 156 weights
+    - US Early (UPS Express® Early): 7 zones, 156 weights
+    - US Express (US Express): 7 zones, 156 weights
+    - US Saver (UPS Express Saver®): 7 zones, 156 weights
+    - US Expedited (UPS Expedited®): 7 zones, 156 weights
+    - US 3 Day Select (UPS 3 Day Select®): 7 zones, 156 weights
+    - US Standard (UPS Standard® - Multi): 7 zones, 156 weights
+    - MX Express (UPS Express®): 10 zones, 59 weights
+    - WW Express (UPS Worldwide Express®): 10 zones, 156 weights
+    - WW Saver (2 DAYS+): 10 zones, 156 weights
+    - WW Expedited (UPS Worldwide Expedited®): 10 zones, 156 weights
+    - Import US Standard (UPS Standard® - Import): 6 zones, 156 weights
+    - Import WW Express (UPS Worldwide Express® - Import): 8 zones, 156 weights
+    - Import WW Saver (UPS Worldwide Express Saver® - Import): 8 zones, 156 weights
+    - Import WW Expedited (UPS Worldwide Expedited® - Import): 8 zones, 156 weights
+    - MX Expedited (UPS Expedited®): 2 zones, 157 weights
+    - Import US Express (UPS Express® - Import): 2 zones, 159 weights
+    - Import US Saver (UPS Express Saver® - Import): 2 zones, 159 weights
+    - Import US Expedited (UPS Worldwide Expedited® - Import): 2 zones, 159 weights
+    - MX Saver (UPS Express Saver®): 2 zones, 159 weights
+
+FILE: ups_canada_accessorials.json
+  Path: /home/user/workspace/br-portal/data/ups_canada_accessorials.json
+  Size: 25,139 bytes (24.5 KB)
+  Accessorial entries: 103
+  Categories: C.O.D. Services, Dangerous Goods Services, Delivery Area Surcharges, Delivery Change Services (Consignee Services), Delivery Confirmation / Signature Services, Pickup Services, UPS Access Point Services, UPS Import Control® Services, UPS Returns® Services, UPS carbon neutral
+
+FILE: ups_intl_zones.json
+  Path: /home/user/workspace/br-portal/data/ups_intl_zones.json
+  Size: 129,388 bytes (126.4 KB)
+  Countries: 348
+  Mexico ZIP zone ranges: 120
+  Services: UPS Worldwide Express, Worldwide Saver, Worldwide Expedited (West/East), Standard to Canada by state
+
+FILE: ups_transit_times.json
+  Path: /home/user/workspace/br-portal/data/ups_transit_times.json
+  Size: 17,132 bytes (16.7 KB)
+  States: 50
+  Hub locations: 6
+    - Buffalo Transit + linehaul
+    - Seattle Transit + linehaul
+    - Ohio Transit
+    - Reno Transit
+    - Texas TNT
+    - Kansas

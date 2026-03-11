@@ -1,0 +1,15 @@
+# Broad Reach Outbound Machine — Local Development
+# Usage: docker compose run outbound-machine
+# (Not a persistent service — runs the daily cycle once and exits)
+#
+# Dry run:  docker compose run -e DRY_RUN=1 outbound-machine
+# Hot leads: docker compose run outbound-machine python crons/hot_lead_monitor.py
+
+services:
+  outbound-machine:
+    build: .
+    env_file:
+      - .env
+    environment:
+      - HUBSPOT_PAT=${HUBSPOT_PAT:-}
+      - DRY_RUN=${DRY_RUN:-}

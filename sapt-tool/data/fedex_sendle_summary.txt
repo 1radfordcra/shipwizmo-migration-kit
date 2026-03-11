@@ -1,0 +1,166 @@
+======================================================================
+FedEx + Sendle Rate Card Extraction Summary
+Generated: March 04, 2026
+======================================================================
+
+FILE: fedex_net_rates.json
+Source: Courtesy-Net-Rates-15352238-English-2.xlsx
+Customer: WIZMO SOLUTIONS INC | Account: 208198563
+Effective Date: 14 November 2025
+File size: 1,241,569 bytes
+Total services extracted: 53
+
+Services (zone count x weight rows):
+  14 zones x 6 weights  |  FedEx 1Day Freight (Per Pound)
+  15 zones x 153 weights  |  FedEx 2Day
+  15 zones x 6 weights  |  FedEx 2Day (Per Pound)
+  12 zones x 153 weights  |  FedEx 2Day A.M.
+  12 zones x 6 weights  |  FedEx 2Day A.M. (Per Pound)
+  14 zones x 6 weights  |  FedEx 2Day Freight (Per Pound)
+  7 zones x 6 weights  |  FedEx 3Day Freight (Per Pound)
+  15 zones x 2 weights  |  FedEx Domestic One Rate 2Day
+  12 zones x 2 weights  |  FedEx Domestic One Rate 2Day A.M.
+  7 zones x 2 weights  |  FedEx Domestic One Rate Express Saver
+  13 zones x 2 weights  |  FedEx Domestic One Rate First Overnight
+  15 zones x 2 weights  |  FedEx Domestic One Rate Priority Overnight
+  12 zones x 2 weights  |  FedEx Domestic One Rate Standard Overnight
+  7 zones x 153 weights  |  FedEx Express Saver
+  7 zones x 6 weights  |  FedEx Express Saver (Per Pound)
+  13 zones x 151 weights  |  FedEx First Overnight
+  13 zones x 6 weights  |  FedEx First Overnight (Per Pound)
+  14 zones x 6 weights  |  FedEx First Overnight Freight (Per Pound)
+  12 zones x 16 weights  |  FedEx Ground Economy (by Ounce) ( 3P )
+  12 zones x 16 weights  |  FedEx Ground Economy (by Ounce) ( OB )
+  12 zones x 71 weights  |  FedEx Ground Economy (by Pound) ( 3P )
+  12 zones x 999 weights  |  FedEx Ground Economy (by Pound) ( OB )
+  12 zones x 225 weights  |  FedEx Ground Economy Bound Printed Matter ( OB,3P )
+  12 zones x 71 weights  |  FedEx Ground Economy Media ( OB,3P )
+  12 zones x 71 weights  |  FedEx Ground Economy Returns ( OB,3P )
+  15 zones x 99 weights  |  FedEx International Connect Plus Export
+  15 zones x 2 weights  |  FedEx International Connect Plus Export (Per Pound)
+  15 zones x 2 weights  |  FedEx International Deferred Freight (ATA, DTA, ATD) Export (Per Pound)
+  15 zones x 2 weights  |  FedEx International Deferred Freight (DTD) Export (Per Pound)
+  15 zones x 99 weights  |  FedEx International Economy Export
+  15 zones x 3 weights  |  FedEx International Economy Export (Per Pound)
+  15 zones x 2 weights  |  FedEx International Economy Freight (ATD, DTA, ATA) Export (Per Pound)
+  15 zones x 2 weights  |  FedEx International Economy Freight (DTD) Export (Per Pound)
+  15 zones x 102 weights  |  FedEx International Priority Export
+  15 zones x 3 weights  |  FedEx International Priority Export (Per Pound)
+  15 zones x 102 weights  |  FedEx International Priority Express Export (IPE)
+  15 zones x 3 weights  |  FedEx International Priority Express Export (IPE) (Per Pound)
+  15 zones x 2 weights  |  FedEx International Priority Freight (DTA, ATD, ATA) Export (Per Pound)
+  15 zones x 2 weights  |  FedEx International Priority Freight (DTD) Export (Per Pound)
+  15 zones x 153 weights  |  FedEx Priority Overnight
+  15 zones x 6 weights  |  FedEx Priority Overnight (Per Pound)
+  12 zones x 153 weights  |  FedEx Standard Overnight
+  12 zones x 6 weights  |  FedEx Standard Overnight (Per Pound)
+  15 zones x 150 weights  |  Ground Domestic Single Piece ( IB,OB,RB,3P )
+  8 zones x 150 weights  |  Ground Domestic Single Piece CA to US ZJ ( IB )
+  15 zones x 150 weights  |  Ground Domestic Single Piece PRP ( OB )
+  15 zones x 150 weights  |  Ground Domestic Single Piece RM ( OB,3P )
+  7 zones x 150 weights  |  Ground Domestic Single Piece TransBorder MX to US ( OB )
+  9 zones x 150 weights  |  Ground Domestic Single Piece TransBorder MX to US ( RB,3P )
+  8 zones x 150 weights  |  Ground Domestic Single Piece ZJ ( IB,OB )
+  7 zones x 150 weights  |  Ground Domestic Single Piece ZJ ( RB,3P )
+  7 zones x 150 weights  |  Ground Export Single Piece ZJ ( OB,3P )
+  9 zones x 150 weights  |  Ground International Single Piece TD ( IB,RB,3P )
+
+JSON format:
+  {
+    "FedEx 2Day": {
+      "zones": ["2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"],
+      "weights": ["Envelope_flat","Pak_1","Pak_2","Package_1",...,"Package_150"],
+      "rates": {
+        "Package_1": {"2": 13.23, "3": 13.23, ..., "16": 13.23},
+        ...
+      }
+    },
+    ...
+  }
+
+Notes:
+  - Weight keys use format: {PackageType}_{weight_lbs} (e.g. Package_50)
+  - Envelope flat rate key: {PackageType}_flat
+  - Per-pound freight tables suffixed: (Per Pound)
+  - International services use letter zones (A-O) instead of numeric
+  - Ground Economy (by Ounce) uses ounces as weight unit
+
+----------------------------------------------------------------------
+FILE: fedex_2day_internal.json
+Source: Fedex-2-day-rate-wizmo-internal.xlsx
+Effective Date: 13 March 2025 | Currency: USD
+File size: 50,598 bytes
+Service: FedEx 2Day
+Zones: ['2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+Package types: Envelope, Pak, Package
+Weight rows: 153 (Envelope flat + Pak 1-2lb + Package 1-150lb)
+Discount info (all package types):
+  Envelope: Bonus 10%, Earned 64%
+  Package: Bonus 10%, Earned 64%
+  Pak: Bonus 10%, Earned 64%
+
+JSON format: same zone x weight structure as fedex_net_rates.json
+Sample rates (Package, lbs 1-3, zones 2-5):
+  Package_1: z2=13.23 z3=13.23 z4=13.23 z5=13.23
+  Package_2: z2=13.23 z3=13.23 z4=13.23 z5=13.23
+  Package_3: z2=13.23 z3=13.23 z4=13.23 z5=13.23
+
+----------------------------------------------------------------------
+FILE: fedex_accessorials.json
+Source: Assessorials.xlsx
+File size: 16,910 bytes
+Express surcharges: 64
+Ground surcharges:  78
+
+Express surcharge categories:
+  Express: 42 entries
+  First Over Night: 1 entries
+  International Express: 18 entries
+  International First: 1 entries
+  International Priority: 1 entries
+  Priority Overnight: 1 entries
+
+Ground surcharge categories:
+  Ground: 41 entries
+  Ground Economy: 9 entries
+  Ground and Home Delivery: 7 entries
+  Home Delivery: 6 entries
+  International Ground: 15 entries
+
+JSON format:
+  {
+    "Express": [{"surcharge": "...", "service": "Express", "rate": 28.0}, ...],
+    "Ground":  [{"surcharge": "...", "service": "Ground",  "rate": 22.0}, ...]
+  }
+
+----------------------------------------------------------------------
+FILE: sendle_rates.json
+Source: Sendle-Saver-Rate-Card.xlsx
+File size: 3,313 bytes
+Service: Sendle Saver (2025)
+Currency: USD
+Zones: ['1', '2', '3', '4', '5', '6', '7', '8'] (1=local, 8=furthest)
+Weight tiers: ['0.25lb', '0.5lb', '0.75lb', '0.999lb', '1lb', '2lb', '3lb', '4lb', '5lb', '6lb', '7lb', '8lb']
+
+Rate matrix (price in USD):
+    Weight | Z1 | Z2 | Z3 | Z4 | Z5 | Z6 | Z7 | Z8
+  ------------------------------------------------
+    0.25lb |  3.8 | 3.86 | 3.88 | 3.98 | 4.04 | 4.15 | 4.23 | 4.41
+     0.5lb | 4.11 |  4.2 | 4.25 | 4.34 | 4.38 | 4.43 | 4.52 | 4.65
+    0.75lb | 4.55 |  4.6 | 4.71 |  4.8 | 4.88 | 5.01 | 5.17 | 5.34
+   0.999lb | 4.82 | 4.86 | 4.96 |  5.1 | 5.34 | 5.61 | 5.82 | 6.01
+       1lb | 5.29 | 5.34 | 5.44 | 5.63 | 6.43 | 7.16 |  7.5 | 7.81
+       2lb | 5.34 | 5.38 | 5.52 | 5.78 | 6.54 | 7.24 | 7.51 | 7.95
+       3lb | 5.51 | 5.55 | 5.74 | 6.11 | 7.01 |  8.2 | 8.42 | 8.97
+       4lb | 5.53 | 5.57 | 5.77 | 6.12 | 7.05 | 8.21 | 8.46 | 9.13
+       5lb | 5.79 | 5.85 |  6.2 | 6.73 | 7.98 | 9.26 | 9.72 | 10.59
+       6lb | 6.12 | 6.17 | 6.58 |  7.2 | 8.56 | 9.67 | 10.16 | 10.97
+       7lb |  6.4 | 6.46 | 6.89 | 7.64 | 9.05 | 10.18 | 10.84 | 11.82
+       8lb | 6.56 | 6.62 | 7.12 | 7.95 | 9.06 | 10.32 | 10.91 | 11.91
+
+======================================================================
+FILES WRITTEN:
+  /home/user/workspace/br-portal/data/fedex_net_rates.json  (1,241,569 bytes)
+  /home/user/workspace/br-portal/data/fedex_2day_internal.json  (50,598 bytes)
+  /home/user/workspace/br-portal/data/fedex_accessorials.json  (16,910 bytes)
+  /home/user/workspace/br-portal/data/sendle_rates.json  (3,313 bytes)

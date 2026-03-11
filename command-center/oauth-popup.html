@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — Broad Reach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+      background: #0F1117;
+      color: #E8ECF4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      text-align: center;
+      padding: 48px 32px;
+      max-width: 360px;
+      width: 100%;
+    }
+    .logo-svg {
+      margin-bottom: 24px;
+      animation: loadingPulse 2s ease-in-out infinite;
+    }
+    @keyframes loadingPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(0.95); }
+    }
+    .status-text {
+      font-size: 14px;
+      font-weight: 500;
+      color: #8B95A9;
+      margin-bottom: 32px;
+    }
+    #google-btn-container {
+      display: flex;
+      justify-content: center;
+      min-height: 44px;
+    }
+    .done-text {
+      display: none;
+      font-size: 13px;
+      font-weight: 500;
+      color: #10B981;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <svg class="logo-svg" width="48" height="48" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="2" y="2" width="36" height="36" rx="4" stroke="#0EA5E9" stroke-width="1.5" fill="none"/>
+      <path d="M10 28 L20 8 L30 28" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M14 22 L26 22" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="20" cy="8" r="2" fill="#0EA5E9"/>
+    </svg>
+    <div class="status-text">Signing you in...</div>
+    <div id="google-btn-container"></div>
+    <div class="done-text" id="done-text">Authenticated — closing...</div>
+  </div>
+
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <script>
+    // MIGRATION: Replace this Client ID with your own from Google Cloud Console.
+    // Project: buoyant-silicon-345213 | Also hardcoded in: app.js, sapt-tool/app.js, sapt-tool/oauth-popup.html
+    var GOOGLE_CLIENT_ID = '105648453442-gjnirc4fa4tmii07lt1lmd353serh4ng.apps.googleusercontent.com';
+
+    function handleCredential(response) {
+      if (window.opener) {
+        window.opener.postMessage({
+          type: 'br-google-credential',
+          credential: response.credential
+        }, '*');
+      }
+      document.getElementById('done-text').style.display = 'block';
+      document.querySelector('.status-text').textContent = 'Success!';
+      setTimeout(function() { window.close(); }, 1200);
+    }
+
+    window.addEventListener('load', function() {
+      google.accounts.id.initialize({
+        client_id: GOOGLE_CLIENT_ID,
+        callback: handleCredential
+      });
+      google.accounts.id.renderButton(
+        document.getElementById('google-btn-container'),
+        {
+          type: 'standard',
+          theme: 'filled_black',
+          size: 'large',
+          text: 'continue_with',
+          shape: 'rectangular',
+          width: 280
+        }
+      );
+    });
+  </script>
+</body>
+</html>

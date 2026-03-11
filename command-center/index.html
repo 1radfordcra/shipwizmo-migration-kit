@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Broad Reach — Command Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    // Pre-loaded cache data from HubSpot (updated by daily cron)
+    window.__DASHBOARD_CACHE__ = {"timestamp": "2026-03-06T19:03:38.200942", "contacts": {"total": 254, "cold_dtc": 195, "expansion": 59, "with_linkedin": 236, "no_linkedin": 18, "pushed_campaign_a": 8, "pushed_campaign_b": 26, "not_pushed": 202, "leads": 253, "hot_leads": 195, "linkedin_coverage_pct": 92.9}, "companies": {"total": 116, "verticals": {"health_supplements": 16, "beauty_cosmetics": 16, "fashion_apparel": 19, "3pl_fulfillment": 28, "home_garden": 4, "food_beverage": 9, "consumer_electronics": 5, "other": 3}}, "deals": {"total": 53, "total_value": 26250000.0, "stages": {"Sequence Enrolled": 6, "Prospect": 9, "Qualified": 38}, "tiers": {"enterprise": {"count": 20, "value": 18500000.0}, "midmarket": {"count": 29, "value": 7450000.0}, "smb": {"count": 4, "value": 300000.0}}}, "health": {"domain": {"status": "HEALTHY", "score": 100, "spf": "PASS", "dkim": "PASS", "dmarc_policy": "none (monitoring only)", "mx": "PASS"}, "warmup": {"status": "ACTIVE", "tool": "instantly.ai", "start_date": "2026-03-03", "week": 1, "daily_limit": 5}, "expandi": {"active": true, "campaigns": 2}, "exclusion_count": 160, "outreach_pieces": 525, "systems": [{"name": "HubSpot CRM", "status": "CONNECTED", "level": "green", "detail": "Live API connection"}, {"name": "Apollo API", "status": "CONNECTED", "level": "green", "detail": "api_search + bulk_match"}, {"name": "Expandi LinkedIn", "status": "ACTIVE", "level": "green", "detail": "2 campaigns active"}, {"name": "Domain (brdrch.com)", "status": "HEALTHY 100%", "level": "green", "detail": "SPF: PASS | DKIM: PASS | MX: PASS"}, {"name": "DMARC Policy", "status": "NEEDS UPGRADE", "level": "amber", "detail": "none (monitoring only)"}, {"name": "Email Warmup", "status": "ACTIVE", "level": "green", "detail": "instantly.ai, Week 1 (5/day)"}, {"name": "Daily Cron", "status": "ACTIVE", "level": "green", "detail": "7:00 AM EST daily"}, {"name": "Weekly Report", "status": "ACTIVE", "level": "green", "detail": "Mondays 8:00 AM EST"}, {"name": "Savings Calculator", "status": "LIVE", "level": "green", "detail": "Capturing inbound leads"}, {"name": "Cooldown System", "status": "ACTIVE", "level": "green", "detail": "Anti-pollution enforcement"}]}, "activity_feed": [{"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Brandon Luft</strong> at Shipfusion", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-Founder & CEO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "897246", "contact": "Brandon Luft", "company": "Shipfusion", "title": "Co-Founder & CEO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Craig Robinson</strong> at Shipfusion", "detail": "DTC \u00b7 Score 0/100 \u00b7 Senior Vice President of Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207116067715", "contact": "Craig Robinson", "company": "Shipfusion", "title": "Senior Vice President of Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Jared Cantor</strong> at Shipfusion", "detail": "DTC \u00b7 Score 0/100 \u00b7 COO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "901480", "contact": "Jared Cantor", "company": "Shipfusion", "title": "COO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Paul Remortel</strong> at Ottawa Logistics Fulfillment", "detail": "DTC \u00b7 Score 0/100 \u00b7 CEO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "24397301", "contact": "Paul Remortel", "company": "Ottawa Logistics Fulfillment", "title": "CEO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Rizwan Kermalli</strong> at eShipper", "detail": "DTC \u00b7 Score 0/100 \u00b7 CEO and Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207199279433", "contact": "Rizwan Kermalli", "company": "eShipper", "title": "CEO and Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Girish Nair</strong> at eShipper", "detail": "DTC \u00b7 Score 0/100 \u00b7 Director of Business Development", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207187398547", "contact": "Girish Nair", "company": "eShipper", "title": "Director of Business Development", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Amanda Martyniuk</strong> at eShipper", "detail": "DTC \u00b7 Score 0/100 \u00b7 Head of Sales", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207189628540", "contact": "Amanda Martyniuk", "company": "eShipper", "title": "Head of Sales", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Drew Horner</strong> at Deliverzen", "detail": "DTC \u00b7 Score 0/100 \u00b7 Chief Executive Officer", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "74993791522", "contact": "Drew Horner", "company": "Deliverzen", "title": "Chief Executive Officer", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Adalberto Guerra</strong> at CDS Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 President & CEO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207197535536", "contact": "Adalberto Guerra", "company": "CDS Logistics", "title": "President & CEO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Randall Wright</strong> at CDS Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 Director of Business Development", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207199710137", "contact": "Randall Wright", "company": "CDS Logistics", "title": "Director of Business Development", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Carlos Guerra</strong> at CDS Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 Director of Business Development", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190250608", "contact": "Carlos Guerra", "company": "CDS Logistics", "title": "Director of Business Development", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>John McKenna</strong> at McKenna Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 President/Owner", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190419379", "contact": "John McKenna", "company": "McKenna Logistics", "title": "President/Owner", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Drake Meyer</strong> at Atomix Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 Vice President Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207110331989", "contact": "Drake Meyer", "company": "Atomix Logistics", "title": "Vice President Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Patrick Day</strong> at Atomix Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 COO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190223425", "contact": "Patrick Day", "company": "Atomix Logistics", "title": "COO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Fabio Filho</strong> at Atomix Logistics", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-founder and Sales Management", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207197543031", "contact": "Fabio Filho", "company": "Atomix Logistics", "title": "Co-founder and Sales Management", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Nihan Yolga</strong> at Forceget", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-Founder & COO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190264989", "contact": "Nihan Yolga", "company": "Forceget", "title": "Co-Founder & COO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Burak Yolga</strong> at Forceget", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207094626411", "contact": "Burak Yolga", "company": "Forceget", "title": "Co-Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Katya Lotzof</strong> at Caraway Home", "detail": "DTC \u00b7 Score 0/100 \u00b7 Associate Director, Logistics and Fulfillment Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "112926772844", "contact": "Katya Lotzof", "company": "Caraway Home", "title": "Associate Director, Logistics and Fulfillment Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Rob Snowden</strong> at Caraway Home", "detail": "DTC \u00b7 Score 0/100 \u00b7 Sr. Director of Supply Chain", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207125438280", "contact": "Rob Snowden", "company": "Caraway Home", "title": "Sr. Director of Supply Chain", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Jordan Nathan</strong> at Caraway Home", "detail": "DTC \u00b7 Score 0/100 \u00b7 Founder & CEO", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190444217", "contact": "Jordan Nathan", "company": "Caraway Home", "title": "Founder & CEO", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Unmil Patel</strong> at Hello Tushy", "detail": "DTC \u00b7 Score 0/100 \u00b7 Director of Supply Chain & Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190481195", "contact": "Unmil Patel", "company": "Hello Tushy", "title": "Director of Supply Chain & Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Miki Agrawal</strong> at Hello Tushy", "detail": "DTC \u00b7 Score 0/100 \u00b7 Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207189637559", "contact": "Miki Agrawal", "company": "Hello Tushy", "title": "Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Krystal Daniel</strong> at Hello Tushy", "detail": "DTC \u00b7 Score 0/100 \u00b7 Senior Director of Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190054050", "contact": "Krystal Daniel", "company": "Hello Tushy", "title": "Senior Director of Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Gareth Everard</strong> at Rockwell Razors", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "780601", "contact": "Gareth Everard", "company": "Rockwell Razors", "title": "Co-Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>SJ Kim</strong> at Alabaster Co.", "detail": "DTC \u00b7 Score 0/100 \u00b7 CEO & Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207113744022", "contact": "SJ Kim", "company": "Alabaster Co.", "title": "CEO & Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Bryant Ellis</strong> at The Adventure Challenge", "detail": "DTC \u00b7 Score 0/100 \u00b7 Chief Executive Officer", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207125986225", "contact": "Bryant Ellis", "company": "The Adventure Challenge", "title": "Chief Executive Officer", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Tiffany Cordano</strong> at The Adventure Challenge", "detail": "DTC \u00b7 Score 0/100 \u00b7 Director of Operations", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207190436760", "contact": "Tiffany Cordano", "company": "The Adventure Challenge", "title": "Director of Operations", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-05T12:00:00", "icon": "prospect", "action": "Discovered <strong>Ben Day</strong> at The Adventure Challenge", "detail": "DTC \u00b7 Score 0/100 \u00b7 Co-Founder", "channel": "DTC", "channel_class": "prospect", "summary": {"event_type": "Prospect Discovered", "contact_id": "207132676177", "contact": "Ben Day", "company": "The Adventure Challenge", "title": "Co-Founder", "prospect_type": "DTC", "icp_score": "0", "pain_score": "0", "website": "", "channels": "", "shipping_signals": "", "pain_signals": "", "location": "", "size": ""}}, {"timestamp": "2026-03-04T12:18:17.584Z", "icon": "linkedin", "action": "LinkedIn push: <strong>David Lortscher</strong>", "detail": " \u00b7 Campaign B (Expansion) \u00b7 Auto-sequence started", "channel": "LinkedIn", "channel_class": "linkedin", "summary": {"event_type": "LinkedIn Push", "contact_id": "206967166016", "contact": "David Lortscher", "company": "", "title": "Co-Founder | Board Chair", "email": "david@curology.com", "location": "San Diego, California", "sequence": "Expansion Signal", "icp_score": "76", "pain_score": "76", "linkedin_url": "http://www.linkedin.com/in/davidlortschermd", "expandi_status": "Pushed Campaign B", "li_connection_msg": "David \u2014 co-founding Curology, that's a real achievement. Cheers.", "li_inmail_msg": "David \u2014 are carrier costs on the board's radar?", "campaign": "Campaign B (Expansion)", "campaign_id": "770814"}}, {"timestamp": "2026-03-04T12:18:17.151Z", "icon": "linkedin", "action": "LinkedIn push: <strong>Kathy Savitt</strong>", "detail": " \u00b7 Campaign B (Expansion) \u00b7 Auto-sequence started", "channel": "LinkedIn", "channel_class": "linkedin", "summary": {"event_type": "LinkedIn Push", "contact_id": "206966455597", "contact": "Kathy Savitt", "company": "", "title": "Chief Executive Officer", "email": "kathy.savitt@curology.com", "location": "", "sequence": "Expansion Signal", "icp_score": "76", "pain_score": "76", "linkedin_url": "http://www.linkedin.com/in/kathysavitt", "expandi_status": "Pushed Campaign B", "li_connection_msg": "Kathy \u2014 Curology's scale is impressive. Would love to connect.", "li_inmail_msg": "Kathy \u2014 how are you managing carrier costs at scale?", "campaign": "Campaign B (Expansion)", "campaign_id": "770814"}}], "blocked_contacts": [{"id": "207189628540", "name": "Amanda Martyniuk", "company": "", "email": "amanda@eshipper.com", "title": "Head of Sales", "location": "Brampton, Ontario", "linkedin_url": "http://www.linkedin.com/in/amartyniuk", "icp_score": "90", "pain_score": "82", "reason": "Blocked Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2026-03-05T12:09:48.017Z"}, {"id": "897246", "name": "Brandon Luft", "company": "", "email": "bluft@shipfusion.com", "title": "CEO", "location": "", "linkedin_url": "", "icp_score": "93", "pain_score": "85", "reason": "Blocked Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2020-09-25T18:42:58.781Z"}, {"id": "207116067715", "name": "Craig Robinson", "company": "", "email": "craig@shipfusion.com", "title": "Senior Vice President of Operations", "location": "Carol Stream, Illinois", "linkedin_url": "http://www.linkedin.com/in/craig-robinson-9247a329", "icp_score": "93", "pain_score": "85", "reason": "Blocked Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2026-03-05T12:09:37.693Z"}, {"id": "207187398547", "name": "Girish Nair", "company": "", "email": "girish@eshipper.com", "title": "Director of Business Development", "location": "Ontario", "linkedin_url": "http://www.linkedin.com/in/girish-kumar-nair-36a93859", "icp_score": "90", "pain_score": "82", "reason": "Removed Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2026-03-05T12:09:47.196Z"}, {"id": "206968710432", "name": "Neil Sant", "company": "", "email": "neil.sant@ecommercefulfilment.com", "title": "COO", "location": "Leicester, England", "linkedin_url": "http://www.linkedin.com/in/neilsant", "icp_score": null, "pain_score": null, "reason": "Opted Out", "expandi_status": "Pushed Campaign B", "cooldown_until": null, "created": "2026-03-04T12:11:11.572Z"}, {"id": "206965073281", "name": "Neil Sant", "company": "J&J Global Fulfilment", "email": "neilsant@gmail.com", "title": "COO @ J&J Global Fulfilment", "location": "", "linkedin_url": "https://www.linkedin.com/in/neilsant/", "icp_score": null, "pain_score": null, "reason": "Opted Out", "expandi_status": "Not Pushed", "cooldown_until": null, "created": "2026-03-04T12:25:30.446Z"}, {"id": "206968729273", "name": "Ning Li", "company": "Typology", "email": "", "title": "Founder", "location": "", "linkedin_url": "https://www.linkedin.com/in/lining/", "icp_score": null, "pain_score": null, "reason": "Opted Out", "expandi_status": "Not Pushed", "cooldown_until": null, "created": "2026-03-04T12:26:39.978Z"}, {"id": "207199279433", "name": "Rizwan Kermalli", "company": "", "email": "rkermalli@canadaworldwide.com", "title": "CEO and Founder", "location": "Brampton, Ontario", "linkedin_url": "http://www.linkedin.com/in/rizwan-kermalli-4451879", "icp_score": "90", "pain_score": "82", "reason": "Blocked Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2026-03-05T12:09:46.244Z"}, {"id": "206966401209", "name": "Stuart Runchman", "company": "", "email": "stuart.runchman@ecommercefulfilment.com", "title": "Group Head of Operations", "location": "", "linkedin_url": "http://www.linkedin.com/in/stuart-runchman-05186964", "icp_score": null, "pain_score": null, "reason": "Opted Out", "expandi_status": "Pushed Campaign B", "cooldown_until": null, "created": "2026-03-04T12:11:08.822Z"}, {"id": "206966781500", "name": "Stuart Runchman", "company": "J&J Global Fulfilment", "email": "stuartrunchman@gmail.com", "title": "Group Head of Operations at J&J Global Fulfilment", "location": "", "linkedin_url": "https://www.linkedin.com/in/stuart-runchman-05186964/", "icp_score": null, "pain_score": null, "reason": "Opted Out", "expandi_status": "Not Pushed", "cooldown_until": null, "created": "2026-03-04T12:23:40.958Z"}, {"id": "901480", "name": "Unknown", "company": "", "email": "jcantor@shipfusion.com", "title": "", "location": "", "linkedin_url": "", "icp_score": "93", "pain_score": "85", "reason": "Blocked Manual", "expandi_status": "Blocked", "cooldown_until": "2099-12-31", "created": "2020-09-25T18:45:21.992Z"}]};
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    // Auto-accept confirm dialogs for testing Remove & Block Contact action
+    window.confirm = function(msg) { console.log('Auto-accepted confirm:', msg); return true; };
+  </script>
+  <style>
+    /* Hide loading overlay immediately when inline cache exists */
+    #loading-overlay { display: none !important; }
+  </style>
+</head>
+<body>
+  <!-- AUTH GATE -->
+  <div id="auth-gate">
+    <div class="auth-gate-inner">
+      <svg class="auth-gate-logo" width="64" height="64" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="36" height="36" rx="4" stroke="#0EA5E9" stroke-width="1.5" fill="none"/>
+        <path d="M10 28 L20 8 L30 28" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M14 22 L26 22" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M20 8 L32 20" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+        <circle cx="20" cy="8" r="2" fill="#0EA5E9"/>
+      </svg>
+      <h1 class="auth-gate-title">Command Center</h1>
+      <p class="auth-gate-subtitle">Sign in to access the dashboard</p>
+      <button class="google-signin-btn" onclick="_openGooglePopup()">
+        <svg class="google-signin-icon" width="18" height="18" viewBox="0 0 48 48">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+          <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+          <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        </svg>
+        Continue with Google
+      </button>
+      <p class="auth-gate-footer">Broad Reach / Asendia</p>
+    </div>
+  </div>
+
+  <!-- LOADING OVERLAY -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loading-content">
+      <svg class="loading-logo" width="48" height="48" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="36" height="36" rx="4" stroke="#0EA5E9" stroke-width="1.5" fill="none"/>
+        <path d="M10 28 L20 8 L30 28" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M14 22 L26 22" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="20" cy="8" r="2" fill="#0EA5E9"/>
+      </svg>
+      <div class="loading-text">Connecting to HubSpot</div>
+      <div class="loading-sub">Fetching live CRM data...</div>
+      <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <div class="logo-mark">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Broad Reach logo">
+            <rect x="2" y="2" width="36" height="36" rx="4" stroke="#0EA5E9" stroke-width="1.5" fill="none"/>
+            <path d="M10 28 L20 8 L30 28" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <path d="M14 22 L26 22" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M20 8 L32 20" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+            <circle cx="20" cy="8" r="2" fill="#0EA5E9"/>
+          </svg>
+          <span class="logo-text">BR</span>
+        </div>
+        <nav class="sidebar-nav">
+          <a href="#overview" class="nav-item active" data-section="overview">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            <span>Overview</span>
+          </a>
+          <a href="#pipeline" class="nav-item" data-section="pipeline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            <span>Pipeline</span>
+          </a>
+          <a href="#contacts" class="nav-item" data-section="contacts">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span>Contacts</span>
+          </a>
+          <a href="#outreach" class="nav-item" data-section="outreach">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <span>Outreach</span>
+          </a>
+          <a href="#system-health" class="nav-item" data-section="system-health">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            <span>System Health</span>
+          </a>
+          <a href="#activity-feed" class="nav-item" data-section="activity-feed">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+            <span>Activity Feed</span>
+          </a>
+        </nav>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="sidebar-brand">Broad Reach / Asendia</div>
+        <div class="sidebar-clock" id="sidebar-clock"></div>
+      </div>
+    </aside>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="header-title">Command Center</h1>
+        <span class="header-badge">LIVE</span>
+      </div>
+      <div class="header-right">
+        <button id="refresh-btn" class="refresh-btn" title="Refresh data">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+        </button>
+        <div class="system-status">
+          <span class="status-dot status-dot--green pulse"></span>
+          <span class="status-label">CONNECTING...</span>
+        </div>
+        <span class="header-sync">Last sync: <span id="sync-time">—</span></span>
+        <div class="header-user" id="header-user" style="display:none">
+          <img class="header-user-avatar" id="header-user-avatar" src="" alt="" />
+          <span class="header-user-name" id="header-user-name"></span>
+          <button class="header-signout" id="header-signout" onclick="_signOut()" title="Sign out">Sign Out</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main" id="main-content">
+
+      <!-- SECTION 1: KPI ROW -->
+      <section id="overview" class="section">
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">PIPELINE VALUE</div>
+            <div class="kpi-value kpi-value--gold" id="kpi-pipeline-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-pipeline-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,20 12,18 24,15 36,12 48,14 60,8 72,10 80,4" fill="none" stroke="#F59E0B" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">ACTIVE DEALS</div>
+            <div class="kpi-value" id="kpi-deals-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-deals-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,22 12,20 24,18 36,14 48,10 60,8 72,6 80,4" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">CONTACTS ENRICHED</div>
+            <div class="kpi-value" id="kpi-contacts-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-contacts-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,22 16,18 32,14 48,8 64,6 80,4" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">COMPANIES TRACKED</div>
+            <div class="kpi-value" id="kpi-companies-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-companies-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,20 16,16 32,14 48,10 64,8 80,6" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">LINKEDIN READY</div>
+            <div class="kpi-value kpi-value--teal" id="kpi-linkedin-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-linkedin-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,22 16,16 32,10 48,6 64,5 80,4" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">OUTREACH PIECES</div>
+            <div class="kpi-value" id="kpi-outreach-value" data-current-value="0">—</div>
+            <div class="kpi-sub" id="kpi-outreach-sub">Loading...</div>
+            <div class="kpi-sparkline"><svg viewBox="0 0 80 24" preserveAspectRatio="none"><polyline points="0,20 16,18 32,12 48,8 64,5 80,4" fill="none" stroke="#0EA5E9" stroke-width="1.5" opacity="0.6"/></svg></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: PIPELINE FUNNEL -->
+      <section id="pipeline" class="section">
+        <h2 class="section-title">Pipeline Funnel</h2>
+        <div class="funnel-container" id="funnel-container">
+          <div class="funnel-placeholder">Loading pipeline data...</div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: TWO COLUMNS -->
+      <section id="contacts" class="section">
+        <div class="two-col">
+          <div class="col-card">
+            <h2 class="section-title">Vertical Distribution</h2>
+            <div class="chart-container">
+              <canvas id="verticalChart"></canvas>
+            </div>
+          </div>
+          <div class="col-card">
+            <h2 class="section-title">Sequence Routing</h2>
+            <div class="routing-container">
+              <div class="routing-row">
+                <div class="routing-info">
+                  <span class="routing-label">Cold DTC Savings</span>
+                  <span class="routing-value" id="routing-cold-value">— contacts</span>
+                </div>
+                <div class="routing-bar-track">
+                  <div class="routing-bar-fill routing-bar--primary" id="routing-cold-bar"></div>
+                </div>
+                <span class="routing-pct" id="routing-cold-pct">—</span>
+              </div>
+              <div class="routing-row">
+                <div class="routing-info">
+                  <span class="routing-label">Expansion Signal</span>
+                  <span class="routing-value" id="routing-exp-value">— contacts</span>
+                </div>
+                <div class="routing-bar-track">
+                  <div class="routing-bar-fill routing-bar--amber" id="routing-exp-bar"></div>
+                </div>
+                <span class="routing-pct" id="routing-exp-pct">—</span>
+              </div>
+              <div class="routing-divider"></div>
+              <h3 class="routing-sub-title">Expandi Push Status</h3>
+              <div class="push-stats" id="expandi-push-stats">
+                <div class="push-stat"><span class="push-stat-value">—</span><span class="push-stat-label">Loading</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: SYSTEM HEALTH -->
+      <section id="system-health" class="section">
+        <h2 class="section-title">System Health</h2>
+        <div class="health-grid" id="health-grid">
+          <div class="health-card"><div class="health-detail">Loading systems...</div></div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: OUTREACH TIMELINE -->
+      <section id="outreach" class="section">
+        <h2 class="section-title">Outreach Readiness Timeline</h2>
+        <div class="timeline">
+          <div class="timeline-track"></div>
+          <div class="timeline-item" data-delay="0">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Day 0 · Mar 3</div>
+              <div class="timeline-label">Warmup Started</div>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="80">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Week 1</div>
+              <div class="timeline-label">5 emails/day + Expandi LinkedIn</div>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="160">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Week 2</div>
+              <div class="timeline-label">10 emails/day</div>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="240">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Week 3</div>
+              <div class="timeline-label">20 emails/day</div>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="320">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Week 4+</div>
+              <div class="timeline-label">Full capacity — 25/day email + 25/day LinkedIn</div>
+            </div>
+          </div>
+          <div class="timeline-item timeline-item--target" data-delay="400">
+            <div class="timeline-dot timeline-dot--target"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Month 2</div>
+              <div class="timeline-label">Target: 12 meetings/month</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: DEAL TIER BREAKDOWN -->
+      <section class="section">
+        <h2 class="section-title">Deal Tier Breakdown</h2>
+        <div class="tier-container">
+          <div class="tier-row">
+            <div class="tier-info">
+              <span class="tier-label">Enterprise <span class="tier-threshold">$500K+</span></span>
+              <span class="tier-stats"><span class="tier-deals" id="tier-0-deals">— deals</span><span class="tier-value" id="tier-0-value">—</span></span>
+            </div>
+            <div class="tier-bar-track">
+              <div class="tier-bar-fill tier-bar--enterprise" id="tier-0-bar"></div>
+            </div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-info">
+              <span class="tier-label">Mid-Market <span class="tier-threshold">$100K–$499K</span></span>
+              <span class="tier-stats"><span class="tier-deals" id="tier-1-deals">— deals</span><span class="tier-value" id="tier-1-value">—</span></span>
+            </div>
+            <div class="tier-bar-track">
+              <div class="tier-bar-fill tier-bar--midmarket" id="tier-1-bar"></div>
+            </div>
+          </div>
+          <div class="tier-row">
+            <div class="tier-info">
+              <span class="tier-label">SMB <span class="tier-threshold">&lt;$100K</span></span>
+              <span class="tier-stats"><span class="tier-deals" id="tier-2-deals">— deals</span><span class="tier-value" id="tier-2-value">—</span></span>
+            </div>
+            <div class="tier-bar-track">
+              <div class="tier-bar-fill tier-bar--smb" id="tier-2-bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: ACTIVE CLIENT EXCLUSION -->
+      <section class="section">
+        <div class="exclusion-card exclusion-card--clickable" onclick="openBlockedPanel()" title="Click to view blocked contacts">
+          <div class="exclusion-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          </div>
+          <div class="exclusion-content">
+            <div class="exclusion-value" id="exclusion-value" data-current-value="0">—</div>
+            <div class="exclusion-label">Active Clients Protected</div>
+            <div class="exclusion-sub">Synced from Notion daily — zero risk of soliciting existing customers</div>
+          </div>
+          <div class="exclusion-right">
+            <span class="exclusion-blocked-count" id="blocked-count-badge"></span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="exclusion-chevron"><polyline points="9 18 15 12 9 6"/></svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8: LIVE ACTIVITY FEED -->
+      <section id="activity-feed" class="section">
+        <div class="feed-header">
+          <h2 class="section-title">Live Outbound Activity</h2>
+          <span class="feed-badge" id="feed-count">— events</span>
+        </div>
+        <div class="feed-tabs" id="feed-tabs">
+          <button class="feed-tab feed-tab--active" data-filter="all" onclick="filterFeedEvents('all')">All</button>
+          <button class="feed-tab" data-filter="email" onclick="filterFeedEvents('email')">Email</button>
+          <button class="feed-tab" data-filter="linkedin" onclick="filterFeedEvents('linkedin')">LinkedIn</button>
+          <button class="feed-tab" data-filter="sequence" onclick="filterFeedEvents('sequence')">Sequences</button>
+        </div>
+        <div class="feed-container" id="feed-container">
+          <div class="feed-empty">Loading recent activity...</div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        Live data from HubSpot CRM · Auto-refreshes every 5 min
+      </footer>
+
+    </main>
+  </div>
+  <!-- Blocked Contacts Slide-Out Panel -->
+  <div class="blocked-overlay" id="blocked-overlay" onclick="closeBlockedPanel()"></div>
+  <aside class="blocked-panel" id="blocked-panel">
+    <div class="blocked-panel-header">
+      <div class="blocked-panel-title-row">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64A9 9 0 0 1 20.77 15"/><path d="M6.16 6.16a9 9 0 1 0 12.68 12.68"/><line x1="2" y1="2" x2="22" y2="22"/></svg>
+        <h3>Blocked Contacts</h3>
+        <span class="blocked-panel-count" id="blocked-panel-count">0</span>
+      </div>
+      <button class="blocked-panel-close" onclick="closeBlockedPanel()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="blocked-panel-subtitle">Contacts removed from outreach. Click to view details, unblock to re-enable.</div>
+    <div class="blocked-panel-list" id="blocked-panel-list">
+      <div class="blocked-panel-loading">Loading blocked contacts...</div>
+    </div>
+  </aside>
+
+  <script src="./app.js"></script>
+</body>
+</html>

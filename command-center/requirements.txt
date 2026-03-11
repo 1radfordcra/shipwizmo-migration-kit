@@ -1,0 +1,13 @@
+# Broad Reach Command Center
+# --- API Proxy Server (api_server.py) ---
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+aiofiles==23.2.1
+# --- Cache Updater Scripts (update_dashboard_cache.py, update_cache_fast.py) ---
+requests==2.31.0
+python-dotenv==1.0.1
+# For Azure Functions:
+# azure-functions==1.18.0
+# For Azure Blob Storage:
+# azure-storage-blob==12.19.0

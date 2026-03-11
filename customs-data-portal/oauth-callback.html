@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signing in...</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f8fafc; color: #334155; }
+    .card { text-align: center; padding: 40px; background: white; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); max-width: 400px; }
+    .spinner { width: 40px; height: 40px; border: 3px solid #e2e8f0; border-top-color: #3b82f6; border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    h2 { margin: 0 0 8px; font-size: 18px; font-weight: 600; }
+    p { margin: 0; font-size: 14px; color: #64748b; }
+    .error { color: #dc2626; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="spinner" id="spinner"></div>
+    <h2 id="title">Completing sign-in...</h2>
+    <p id="message">Please wait, this window will close automatically.</p>
+  </div>
+  <script>
+    /**
+     * OAuth Callback Handler — Customs Data Portal
+     *
+     * This page is opened as a popup by customs-data-portal/app.js (line ~518):
+     *   window.open('oauth-callback.html', 'GoogleSignIn', ...)
+     *
+     * Flow:
+     *   1. Google redirects here with an access_token in the URL fragment (#)
+     *   2. We extract the token from the hash
+     *   3. We pass it back to the parent window via postMessage
+     *   4. The parent (app.js) receives the token and completes authentication
+     *
+     * This is the same popup-to-postMessage pattern used by the SAPT Tool
+     * (sapt-tool/google-callback.html) — required because the app runs inside
+     * a Perplexity Computer iframe where google.accounts.id.prompt() is blocked.
+     *
+     * MIGRATION NOTE (Azure):
+     *   On your own domain, you can remove this popup pattern entirely and use
+     *   the standard Google Identity Services (GIS) flow with
+     *   google.accounts.id.renderButton(). The popup pattern exists solely to
+     *   work around the cross-origin iframe restriction on Perplexity's hosting.
+     *
+     * SECURITY NOTE:
+     *   postMessage uses '*' as the target origin. On Azure, change this to
+     *   your specific domain (e.g., 'https://customs.brdrch.com') to prevent
+     *   token interception by malicious pages.
+     *
+     * Google Client ID: Set via GOOGLE_CLIENT_ID env var in production.
+     *   Current: 105648453442-gjnirc4fa4tmii07lt1lmd353serh4ng.apps.googleusercontent.com
+     *   Project: buoyant-silicon-345213
+     */
+    (function() {
+      try {
+        var hash = window.location.hash.substring(1);
+        var params = new URLSearchParams(hash);
+        var accessToken = params.get('access_token');
+        var error = params.get('error');
+
+        if (error) {
+          document.getElementById('spinner').style.display = 'none';
+          document.getElementById('title').textContent = 'Sign-in cancelled';
+          document.getElementById('message').textContent = error;
+          document.getElementById('message').className = 'error';
+          if (window.opener) {
+            try { window.opener.postMessage({ type: 'google-sso-error', error: error }, '*'); } catch(e){}
+          }
+          setTimeout(function() { window.close(); }, 2000);
+          return;
+        }
+
+        if (!accessToken) {
+          document.getElementById('spinner').style.display = 'none';
+          document.getElementById('title').textContent = 'Sign-in issue';
+          document.getElementById('message').textContent = 'No token received. Please close this window and try again.';
+          document.getElementById('message').className = 'error';
+          if (window.opener) {
+            try { window.opener.postMessage({ type: 'google-sso-error', error: 'no_token' }, '*'); } catch(e){}
+          }
+          setTimeout(function() { window.close(); }, 3000);
+          return;
+        }
+
+        // Success — pass token back to parent window
+        document.getElementById('title').textContent = 'Sign-in successful!';
+        document.getElementById('message').textContent = 'Redirecting you now...';
+
+        var sent = false;
+        if (window.opener) {
+          try {
+            window.opener.postMessage({ type: 'google-sso-token', access_token: accessToken }, '*');
+            sent = true;
+          } catch(e) { console.log('postMessage failed:', e); }
+        }
+
+        if (sent) {
+          setTimeout(function() { window.close(); }, 800);
+        } else {
+          document.getElementById('spinner').style.display = 'none';
+          document.getElementById('title').textContent = 'Sign-in successful!';
+          document.getElementById('message').textContent = 'Please close this window and return to the Customs Data Portal.';
+        }
+      } catch(e) {
+        document.getElementById('spinner').style.display = 'none';
+        document.getElementById('title').textContent = 'Error';
+        document.getElementById('message').textContent = e.message;
+        document.getElementById('message').className = 'error';
+      }
+    })();
+  </script>
+</body>
+</html>

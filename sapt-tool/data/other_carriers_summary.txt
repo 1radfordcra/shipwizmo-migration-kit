@@ -1,0 +1,73 @@
+======================================================================
+OTHER CARRIERS RATE DATA SUMMARY
+Generated: 2026-03-04
+======================================================================
+
+FILE: amazon_rates.json  (1,689,919 bytes)
+TITLE: Amazon Rates (via RocketShip)
+  Services: ['Ground']
+  Rate rows: 150 (weights 1-150 lbs)
+  Zones: ['1', '2.0', '3.0', '4.0', '5.0', '6.0', '7.0', '8.0', '9']
+  Area surcharge zips: 25,721
+  Fuel surcharge: 14.5% - 19.0%
+  Additional fees: ['area_surcharges', 'additional_handling_fee', 'large_package_fee', 'extra_heavy_package_fee', 'address_correction_fee', 'shipment_correction_audit_fee', 'prohibited_goods_fee', 'scheduled_pickup_fee', 'ad_hoc_pickup_fee', 'fuel_surcharge']
+
+FILE: uniuni_rates.json  (11,296 bytes)
+TITLE: UniUni Rate Card 2026
+  Rate rows: 46 total (16 oz + 30 lbs)
+  Zones: ['Zone1', 'Zone2', 'Zone3', 'Zone4', 'Zone5', 'Zone6', 'Zone7', 'Zone8']
+  Currency: USD, Year: 2026
+  Weight range: 1 oz to 480 lbs
+
+FILE: spring_gds_rates.json  (7,770,581 bytes)
+TITLE: Spring GDS / PostNL International Rates
+  File: ex_toronto_2025 - sheets: {'Packet Untracked': 81, 'Packet Plus Registered': 13, 'Packet Tracked': 68, 'Gateway Parcel': 70, 'Spring Direct': 1}
+  File: ex_toronto_ew_2025 - sheets: {'Packet Untracked': 81, 'Packet Plus Registered': 13, 'Packet Tracked': 69}
+  File: ex_toronto_montreal_vancouver_2026 - sheets: {'Packet Untracked': 74, 'Packet Plus Registered': 13, 'Packet Tracked': 75}
+  Rate Card 2026: 87 destinations, effective 2026-01-19
+  Sortation list: 247 destinations
+  Currency: CAD
+  Services: Packet Untracked, Packet Plus Registered, Packet Tracked, Gateway Parcel, Spring Direct
+
+FILE: cross_border_rates.json  (169,961 bytes)
+TITLE: Cross-Border Rates (PostNL/Data Solution)
+  All-in Intact: 53 country rates (8 Data Solution + 45 Non-Data Solution)
+  All-in Non-Intact: 53 country rates
+  Detail sheets (ZPWS/ZPPG 540/531 DEI/DEJ/ITR): 242 total line items
+  Currency: GBP
+
+FILE: peak_surcharges.json  (6,564 bytes)
+TITLE: 2025 Peak Season Surcharges
+  Season window: Late Sep/Early Oct 2025 to mid-Jan 2026
+  Peak period: Nov 24 - Dec 28, 2025
+  UPS: Sep 28 – Jan 17 | Ground Resi: $0.40 → $0.60 → $0.40; Air: $1.10 → $2.05 → $1.10; AHS: $8.25 → $10...
+  FedEx: Sep 29 – Jan 18 | Ground Resi: $0.40 → $0.65 → $0.40; Express: $1.05 → $2.10 → $1.05; AHS: $8.25 →...
+  USPS: Oct 5 – Jan 18 | GA 1–4: +$0.30–$2.25; GA 5–9: +$0.35–$5.50; PM 5–9: +$0.70–$6.50; PME +$1–$13...
+  Amazon Shipping: Oct 26 – Jan 17 | Ground Resi: $0.40 → $0.60 → $0.40; AHS: $8.25 → $10.80; Large: $90 → $107; Extr...
+  DHL eCommerce: Oct 5 – Jan 17 | Parcel Ground: +$0.62–$0.67; Parcel Plus: +$0.62–$1.07; Returns mirror USPS adds...
+  OnTrac (LaserShip): Sep 27 – Jan 16 | Residential & Large Package demand adds; AHS/Large/Over Max surcharges...
+  GLS-US: Oct 13 – Jan 16 | Flat $1.50 per parcel...
+
+FILE: wizmo_service_catalog.json  (47,080 bytes)
+TITLE: Internal Wizmo Service Catalog
+  Total services: 94
+  Carriers (31): Amazon, Asendia, Broadreach, CP Lettermail, Canada Post, Canpar, Clearjet, DHL East, DHL Int East, DHL Int West, DHL West, Dragonfly, FEDEX INT Ohio, Fedex, Fedex INT CA, OSM, OSM BPM, Ontrac, PostNL, Puralator, RavenForce, Smartkargo, ULALA, UPS, UPS CA, UPS CA INT, UPS INT, UPS MI, USPS, Uni Uni, Zones
+  US services: 40, CA services: 0, International: 54
+
+======================================================================
+PARSING NOTES
+======================================================================
+- Amazon Rates: 1 service (Ground, Continental US) with zones 1-9, 150 weight tiers.
+  Additional fees include area surcharges (DAS/EDAS/RAS), handling, large pkg,
+  extra heavy, address correction, prohibited goods, pickup fees.
+- UniUni: Per-parcel pricing by zone (Z1-Z8), dual ounce/pound weight tiers.
+- Spring GDS: Multiple files covering ex-Toronto (2025), East-West (2025),
+  Montreal-Vancouver (2026). Per-gram pricing in per-gram detail files,
+  plus compact Item+Kg rate card format for quick lookup.
+  Gateway Parcel sheet has 2000-step granularity (10g-20kg).
+- Cross-Border: PostNL Data Solution tracked rates (DEI/DEJ/ITR service codes),
+  both intact and non-intact. ZPWS=per item, ZPPG=per kg. 540/531 = sortation codes.
+- Peak Surcharges: 7 carriers (UPS, FedEx, USPS, Amazon, DHL, OnTrac, GLS-US).
+  All structured with window dates and per-package surcharge amounts.
+- Wizmo Catalog: 94 services across 31 carriers. Includes GRI%, contact info,
+  dim factors, max dimensions/weights, billable weight calculation methods.

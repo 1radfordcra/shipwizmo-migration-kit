@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipping Savings Calculator — Broad Reach | An Asendia Company</title>
+  <meta name="description" content="See how much you'd save vs. your commercial USPS and discounted UPS/FedEx accounts. Broad Reach rates start at $2/package. Calculate your savings in 60 seconds.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./page.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230f2b2b'/><path d='M8 12l8-5 8 5v9l-8 5-8-5z' fill='none' stroke='%23f5e642' stroke-width='2'/><path d='M16 7v15M8 12l8 5 8-5' fill='none' stroke='%23f5e642' stroke-width='1.5'/></svg>">
+</head>
+<body>
+  <a href="#calcForm" class="sr-only" style="position:absolute;top:0;left:0;z-index:9999;background:var(--color-primary);color:var(--color-text-inverse);padding:8px 16px;">Skip to calculator</a>
+  <div class="page-wrapper">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo-group">
+            <!-- Broad Reach Logo SVG — package/box icon -->
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Broad Reach logo">
+              <path d="M20 4L6 12v16l14 8 14-8V12L20 4z" stroke="#f5e642" stroke-width="2" fill="none" stroke-linejoin="round"/>
+              <path d="M20 4l14 8-14 8L6 12l14-8z" stroke="#f5e642" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+              <path d="M20 20v16" stroke="#f5e642" stroke-width="2"/>
+              <path d="M6 12l14 8 14-8" stroke="#f5e642" stroke-width="1.5" fill="none"/>
+              <path d="M13 8l14 8" stroke="rgba(255,255,255,0.25)" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+            <div class="logo-text">
+              <span class="logo-name">BROAD REACH</span>
+              <span class="logo-sub">An Asendia Company</span>
+            </div>
+          </div>
+          <span class="header-tagline">Shipping Savings Calculator</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+            Save up to 70% on Shipping
+          </div>
+          <h1>See What You'd Save in 60 Seconds</h1>
+          <p class="hero-subtitle">Broad Reach delivers packages across the US, Canada, and worldwide at rates <strong>up to 70% less</strong> than even your commercial USPS account and heavily discounted UPS, FedEx, and DHL contracts.</p>
+        </div>
+      </section>
+
+      <!-- CALCULATOR -->
+      <section class="calculator-section">
+        <div class="container container--narrow">
+          <div class="calc-card">
+            <div class="calc-card-header">
+              <h2>Calculate Your Savings</h2>
+              <p>Compare against your existing negotiated carrier rates</p>
+            </div>
+
+            <form id="calcForm" onsubmit="return false;">
+              <div class="form-grid">
+
+                <!-- Monthly Volume -->
+                <div class="form-group">
+                  <label class="form-label" for="volume">Monthly Package Volume</label>
+                  <select class="form-select" id="volume" required>
+                    <option value="">Select volume...</option>
+                    <option value="350">200 – 500</option>
+                    <option value="750">500 – 1,000</option>
+                    <option value="1750" selected>1,000 – 2,500</option>
+                    <option value="3750">2,500 – 5,000</option>
+                    <option value="7500">5,000 – 10,000</option>
+                    <option value="12500">10,000+</option>
+                  </select>
+                </div>
+
+                <!-- Average Weight -->
+                <div class="form-group">
+                  <label class="form-label" for="weight">Average Package Weight</label>
+                  <select class="form-select" id="weight" required>
+                    <option value="under1">Under 1 lb</option>
+                    <option value="1to2" selected>1 – 2 lbs</option>
+                    <option value="2to5">2 – 5 lbs</option>
+                    <option value="5to10">5 – 10 lbs</option>
+                  </select>
+                </div>
+
+                <!-- Primary Destination -->
+                <div class="form-group form-group--full">
+                  <label class="form-label">Primary Shipping Destination</label>
+                  <div class="checkbox-group" id="destinations">
+                    <label class="checkbox-label checked">
+                      <input type="checkbox" value="domestic" checked> Domestic US
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" value="canada"> Canada
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" value="international"> International
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Current Carrier -->
+                <div class="form-group">
+                  <label class="form-label" for="carrier">Current Carrier</label>
+                  <select class="form-select" id="carrier" required>
+                    <option value="UPS">UPS</option>
+                    <option value="FedEx">FedEx</option>
+                    <option value="USPS">USPS</option>
+                    <option value="DHL">DHL</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                <!-- Average Cost -->
+                <div class="form-group">
+                  <label class="form-label" for="costPerPkg">Your Avg. Cost Per Package <span style="font-weight:400;font-size:0.85em;opacity:0.7">(auto-fills with discounted rates, or enter your own)</span></label>
+                  <div class="currency-input">
+                    <span class="currency-symbol">$</span>
+                    <input type="number" class="form-input" id="costPerPkg" placeholder="auto" step="0.01" min="0" max="999" value="" >
+                  </div>
+                </div>
+
+              </div>
+
+              <button type="button" class="btn-calculate" id="calcBtn" onclick="calculateSavings()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                Calculate My Savings
+              </button>
+            </form>
+
+            <!-- RESULTS -->
+            <div class="results-section" id="results" aria-hidden="true">
+              <div class="results-card">
+                <div class="results-header">
+                  <div class="results-label">Estimated Annual Savings</div>
+                  <div class="savings-amount" id="annualSavings">$0</div>
+                </div>
+
+                <div class="results-grid">
+                  <div class="result-stat">
+                    <div class="stat-label">Monthly Savings</div>
+                    <div class="stat-value" id="monthlySavings">$0</div>
+                  </div>
+                  <div class="result-stat">
+                    <div class="stat-label">Per-Package Savings</div>
+                    <div class="stat-value" id="perPkgSavings">$0.00</div>
+                  </div>
+                  <div class="result-stat">
+                    <div class="stat-label">Savings Percentage</div>
+                    <div class="stat-value" id="savingsPct">0%</div>
+                  </div>
+                </div>
+
+                <!-- Visual comparison bars -->
+                <div class="comparison-bar">
+                  <div class="bar-row">
+                    <div class="bar-item">
+                      <span class="bar-item-label" id="carrierLabel">Current Carrier</span>
+                      <div class="bar-item-track">
+                        <div class="bar-item-fill bar-item-fill--current" id="barCurrent" style="width: 0%;">
+                          <span id="barCurrentLabel">$0/yr</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bar-item">
+                      <span class="bar-item-label">Broad Reach</span>
+                      <div class="bar-item-track">
+                        <div class="bar-item-fill bar-item-fill--br" id="barBR" style="width: 0%;">
+                          <span id="barBRLabel">$0/yr</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="results-note">Carrier rates reflect real-world discounted accounts — USPS Commercial Plus pricing (Notice 123) and UPS/FedEx/DHL rates with heavy volume discounts already applied. These are not retail rates. Broad Reach still beats them through Asendia's last-mile carrier network. Actual savings may vary by volume, zone mix, and contract terms.</p>
+
+                <div class="results-cta">
+                  <button class="btn-cta" onclick="openQuoteModal()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    Get Your Custom Quote
+                  </button>
+                  <p class="cta-sub">Or email us directly at <a href="mailto:sales@brdrch.com" target="_blank" rel="noopener noreferrer">sales@brdrch.com</a></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- TRUST / SOCIAL PROOF -->
+      <section class="trust-section reveal" id="trustSection">
+        <div class="container">
+          <div class="trust-header">
+            <h2>Why Merchants Choose Broad Reach</h2>
+            <p>Trusted by ecommerce businesses across North America</p>
+          </div>
+
+          <div class="trust-stats">
+            <div class="trust-stat">
+              <div class="trust-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3>Hundreds of Merchants</h3>
+              <p>US &amp; Canadian businesses trust Broad Reach for reliable, affordable shipping</p>
+            </div>
+            <div class="trust-stat">
+              <div class="trust-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="1" y="3" width="22" height="18" rx="2"/><path d="M1 9h22M1 15h22M8 3v18M16 3v18"/></svg>
+              </div>
+              <h3>Millions of Parcels</h3>
+              <p>Moved yearly with end-to-end tracking and delivery confirmation</p>
+            </div>
+            <div class="trust-stat">
+              <div class="trust-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3>Asendia Backed</h3>
+              <p>Part of the Asendia network — La Poste &amp; Swiss Post global infrastructure</p>
+            </div>
+          </div>
+
+          <div class="marketplace-section">
+            <div class="marketplace-label">Seamlessly Integrated On</div>
+            <div class="marketplace-logos">
+              <div class="marketplace-logo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.07-.258.144-.515.22-.77.096-.316.193-.632.293-.947.262-.82.559-1.628.886-2.42.108-.261.22-.52.333-.778.113-.258.231-.513.351-.767.24-.508.492-1.01.755-1.503.12-.225.243-.448.368-.67.213-.378.433-.751.662-1.118.044-.071.089-.141.134-.211a18.94 18.94 0 0 1 1.202-1.667A18.86 18.86 0 0 1 12 .07a18.86 18.86 0 0 1 6.75 5.098c.46.552.886 1.13 1.276 1.731.045.07.09.14.134.211.229.367.449.74.662 1.118.125.222.248.445.368.67.263.494.515.995.755 1.503.12.254.238.509.351.767.114.258.225.517.333.778.327.792.624 1.6.886 2.42.1.315.197.631.293.947.076.255.15.512.22.77H.045z"/></svg>
+                Amazon
+              </div>
+              <div class="marketplace-logo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.4 2.4H2.4v9h9V2.4zm10.2 0h-9v9h9V2.4zm-10.2 10.2h-9v9h9v-9zm10.2 0h-9v9h9v-9z"/></svg>
+                Walmart
+              </div>
+              <div class="marketplace-logo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.613 4.357C3.243 5.93 2 8.336 2 11.257c0 5.157 3.8 8.743 8.4 8.743 2.6 0 4.507-1.143 5.857-2.743l-2.4-1.457c-.657.857-1.786 1.543-3.457 1.543-2.857 0-4.943-2.286-4.943-5.086s1.786-5.086 4.643-5.086c1.757 0 2.943.686 3.6 1.543l2.4-1.457C14.82 5.5 12.813 4.357 10.4 4.357c-1.743 0-3.357.543-4.787 1.543V4.357zm13.38 0c-.55 0-1 .45-1 1.014v9.257c0 .565.45 1.015 1 1.015h2.014V4.357H18.993z"/></svg>
+                Shopify
+              </div>
+              <div class="marketplace-logo">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.88-2.88 2.89 2.89 0 0 1 2.88-2.88c.3 0 .59.05.87.13V9.03a6.31 6.31 0 0 0-.87-.06 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.94a8.18 8.18 0 0 0 4.78 1.54V7.03a4.83 4.83 0 0 1-1.02-.34z"/></svg>
+                TikTok Shop
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">Broad Reach — An Asendia Company</div>
+          <div class="footer-address">701C Ashland Avenue, Folcroft, PA 19032</div>
+          <div class="footer-email"><a href="mailto:sales@brdrch.com" target="_blank" rel="noopener noreferrer">sales@brdrch.com</a></div>
+          <div class="footer-powered">Powered by Broad Reach / Asendia</div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- QUOTE MODAL -->
+  <div class="modal-overlay" id="quoteModal">
+    <div class="modal" role="dialog" aria-labelledby="modalTitle">
+      <!-- Form state -->
+      <div id="modalForm">
+        <div class="modal-header">
+          <h3 id="modalTitle">Get Your Custom Quote</h3>
+          <button class="modal-close" onclick="closeQuoteModal()" aria-label="Close modal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <form class="modal-form" onsubmit="return false;">
+          <div class="form-group">
+            <label class="form-label" for="qName">Name *</label>
+            <input type="text" class="form-input" id="qName" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qEmail">Email *</label>
+            <input type="email" class="form-input" id="qEmail" placeholder="you@company.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qCompany">Company *</label>
+            <input type="text" class="form-input" id="qCompany" placeholder="Your company name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qPhone">Phone (optional)</label>
+            <input type="tel" class="form-input" id="qPhone" placeholder="(555) 123-4567">
+          </div>
+          <button class="btn-cta" onclick="submitQuoteForm()">
+            Request Custom Quote
+          </button>
+        </form>
+      </div>
+      <!-- Success state -->
+      <div id="modalSuccess" style="display: none;">
+        <div class="modal-header">
+          <h3>&nbsp;</h3>
+          <button class="modal-close" onclick="closeQuoteModal()" aria-label="Close modal">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="modal-success">
+          <div class="success-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3>Thank You!</h3>
+          <p>A Broad Reach specialist will contact you within 24 hours with a custom shipping quote.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "sequences": {
+    "cold_dtc_savings": {
+      "name": "BR Multi-Channel — Cold DTC Savings",
+      "hubspot_sequence_id": null,
+      "description": "Cold outreach to DTC ecommerce brands with high shipping cost signals. Primary sequence for new Apollo-sourced contacts.",
+      "channels": ["email", "linkedin"],
+      "email_steps": 4,
+      "linkedin_steps": 2,
+      "total_touchpoints": 6,
+      "cadence_days": [0, 3, 7, 14, 3, 7],
+      "status": "active"
+    },
+    "expansion_signal": {
+      "name": "BR Multi-Channel — Expansion Signal",
+      "hubspot_sequence_id": null,
+      "description": "Expansion outreach to brands showing growth signals (Shopify Plus upgrade, new warehouse, hiring logistics roles). Warmer tone, references specific growth signal.",
+      "channels": ["email", "linkedin"],
+      "email_steps": 3,
+      "linkedin_steps": 2,
+      "total_touchpoints": 5,
+      "cadence_days": [0, 4, 10, 4, 7],
+      "status": "active"
+    }
+  },
+  "targeting_split": {
+    "3pl_fulfillment": 0.60,
+    "dtc_brands": 0.40,
+    "note": "60% of daily send volume targets 3PL/fulfillment companies, 40% targets DTC brands directly"
+  },
+  "notes": "HubSpot sequence IDs are null because we use direct send (not HubSpot Sequences) due to a connected inbox sender identity bug. The sequence names are used for tracking/reporting only.",
+  "last_updated": "2026-03-06"
+}

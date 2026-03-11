@@ -1,0 +1,5 @@
+# Azure Functions — Broad Reach Automations
+azure-functions==1.18.0
+requests==2.31.0
+python-dotenv==1.0.1
+azure-storage-blob==12.19.0

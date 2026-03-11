@@ -1,0 +1,68 @@
+{
+  "description": "Maps live app directories to their migration-kit counterparts. Used by the daily sync cron to detect source code drift.",
+  "apps": {
+    "sapt-tool": {
+      "live_dir": "/home/user/workspace/broad-reach-portal",
+      "kit_dir": "/home/user/workspace/migration-kit/sapt-tool",
+      "core_files": ["api_server.py", "app.js", "index.html", "style.css", "base.css", "app.css", "oauth-popup.html"],
+      "security_patches": {
+        "api_server.py": [
+          "Hardcoded admin123 → env var ADMIN_DEFAULT_PASSWORD",
+          "Hardcoded GOOGLE_CLIENT_ID/SECRET → os.environ.get()",
+          "CORS allow_origins=['*'] → env var CORS_ORIGINS with safe defaults",
+          "SHA-256 password hashing legacy note"
+        ],
+        "app.js": [
+          "Hardcoded 'port/8000' → auto-detect ternary (pplx.app check)",
+          "Migration comments for Google Client ID"
+        ]
+      }
+    },
+    "command-center": {
+      "live_dir": "/home/user/workspace/broad_reach_app",
+      "kit_dir": "/home/user/workspace/migration-kit/command-center",
+      "core_files": ["api_server.py", "app.js", "index.html", "style.css", "oauth-popup.html", "update_dashboard_cache.py", "dashboard_cache.json"],
+      "security_patches": {
+        "api_server.py": [
+          "Hardcoded HS_TOKEN → os.environ.get('HUBSPOT_PAT')",
+          "CORS allow_origins=['*'] → env var CORS_ORIGINS with safe defaults",
+          "Added StaticFiles mount + FileResponse imports"
+        ],
+        "app.js": [
+          "Hardcoded 'port/8000' → auto-detect ternary",
+          "Hardcoded HS_PORTAL '44489437' → '6282372'",
+          "Migration comments for Google Client ID"
+        ]
+      }
+    },
+    "customs-data-portal": {
+      "live_dir": "/home/user/workspace/customs-portal-reconstruction",
+      "kit_dir": "/home/user/workspace/migration-kit/customs-data-portal",
+      "core_files": ["api_server.py", "app.js", "index.html", "style.css", "base.css", "app.css", "oauth-callback.html"],
+      "security_patches": {
+        "api_server.py": [
+          "CORS default '*' → safe defaults",
+          "Hardcoded GOOGLE_CLIENT_ID → os.environ.get()",
+          "Added StaticFiles mount + FileResponse imports"
+        ]
+      }
+    },
+    "savings-calculator": {
+      "live_dir": "/home/user/workspace/exports",
+      "kit_dir": "/home/user/workspace/migration-kit/savings-calculator",
+      "core_files": ["app.js", "index.html", "style.css", "base.css", "page.css"],
+      "note": "Live dir uses 'savings-calculator-index.html' → kit uses 'index.html'. CGI in exports/cgi-bin/quote.py → kit/cgi-bin/quote.py",
+      "file_mapping": {
+        "savings-calculator-index.html": "index.html"
+      },
+      "security_patches": {}
+    },
+    "outbound-machine": {
+      "live_dir": null,
+      "kit_dir": "/home/user/workspace/migration-kit/outbound-machine",
+      "note": "No live deployment directory — scripts built directly in migration kit",
+      "core_files": [],
+      "security_patches": {}
+    }
+  }
+}

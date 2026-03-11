@@ -1,0 +1,14 @@
+# Broad Reach Savings Calculator — Local Development
+# Usage: docker compose up
+# Access: http://localhost:8000
+
+services:
+  savings-calculator:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - HUBSPOT_PAT=${HUBSPOT_PAT:-}
+    restart: unless-stopped

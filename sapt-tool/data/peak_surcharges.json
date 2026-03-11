@@ -1,0 +1,109 @@
+{
+  "title": "2025 Peak Season Surcharge Guide",
+  "season_window": "Late Sep/Early Oct 2025 to mid-Jan 2026",
+  "biggest_surcharge_period": "Nov 24 - Dec 28, 2025",
+  "carriers": [
+    {
+      "carrier": "UPS",
+      "effective_window": "Sep 28 \u2013 Jan 17",
+      "peak_surcharges_summary": "Ground Resi: $0.40 \u2192 $0.60 \u2192 $0.40; Air: $1.10 \u2192 $2.05 \u2192 $1.10; AHS: $8.25 \u2192 $10.80; Large: $90.50 \u2192 $107",
+      "notes": "Higher-volume accounts (20k+/week) see dynamic adders up to $8.75 based on June 2025 baseline"
+    },
+    {
+      "carrier": "FedEx",
+      "effective_window": "Sep 29 \u2013 Jan 18",
+      "peak_surcharges_summary": "Ground Resi: $0.40 \u2192 $0.65 \u2192 $0.40; Express: $1.05 \u2192 $2.10 \u2192 $1.05; AHS: $8.25 \u2192 $10.90; Oversize: $90 \u2192 $108.50",
+      "notes": "Peaking program adds $1.55 \u2013 $8.75 per pkg for high-volume shippers (20k+/week)"
+    },
+    {
+      "carrier": "USPS",
+      "effective_window": "Oct 5 \u2013 Jan 18",
+      "peak_surcharges_summary": "GA 1\u20134: +$0.30\u2013$2.25; GA 5\u20139: +$0.35\u2013$5.50; PM 5\u20139: +$0.70\u2013$6.50; PME +$1\u2013$13",
+      "notes": "Applies to Ground Advantage, PM, PM Express, Parcel Select (Commercial & Retail)"
+    },
+    {
+      "carrier": "Amazon Shipping",
+      "effective_window": "Oct 26 \u2013 Jan 17",
+      "peak_surcharges_summary": "Ground Resi: $0.40 \u2192 $0.60 \u2192 $0.40; AHS: $8.25 \u2192 $10.80; Large: $90 \u2192 $107; Extra Heavy: $485 \u2192 $540",
+      "notes": "No residential or weekend add-ons \u2014 flat demand charges only"
+    },
+    {
+      "carrier": "DHL eCommerce",
+      "effective_window": "Oct 5 \u2013 Jan 17",
+      "peak_surcharges_summary": "Parcel Ground: +$0.62\u2013$0.67; Parcel Plus: +$0.62\u2013$1.07; Returns mirror USPS adds",
+      "notes": "Applies to all SmartMail Domestic services"
+    },
+    {
+      "carrier": "OnTrac (LaserShip)",
+      "effective_window": "Sep 27 \u2013 Jan 16",
+      "peak_surcharges_summary": "Residential & Large Package demand adds; AHS/Large/Over Max surcharges",
+      "notes": "Check your account-specific rider for exact rates"
+    },
+    {
+      "carrier": "GLS-US",
+      "effective_window": "Oct 13 \u2013 Jan 16",
+      "peak_surcharges_summary": "Flat $1.50 per parcel",
+      "notes": "Uniform charge across all zones; subject to update"
+    }
+  ],
+  "carrier_details": {
+    "UPS (U.S.)": [
+      "Windows",
+      "Sep 28\u2013Nov 22, 2025 \u2192 low tier",
+      "Nov 23\u2013Dec 27, 2025 \u2192 high tier",
+      "Dec 28, 2025\u2013Jan 17, 2026 \u2192 low tier again.",
+      "Per-package demand surcharge (non-\u201chigher-volume\u201d shippers)",
+      "Ground Saver & Ground Residential: $0.40 \u2192 $0.60 \u2192 $0.40 across the 3 periods",
+      "Air: $1.10 \u2192 $2.05 \u2192 $1.10.",
+      "Add\u2019l Handling / Large / Over Max",
+      "Additional Handling: $8.25 \u2192 $10.80 \u2192 $8.25",
+      "Large Package: $90.50 \u2192 $107.00 \u2192 $90.50",
+      "Over Maximum Limits: $485 \u2192 $540 \u2192 $485.",
+      "Higher-Volume program (if you exceeded 20k pkgs in any week since Oct 2024): weekly, tiered per-piece surcharges by peaking vs. baseline (up to $8.75 for some tiers). Baseline = June 2025 avg (or late-Aug/Sept if you dropped >20%)."
+    ],
+    "FedEx (U.S.)": [
+      "Windows",
+      "Additional Handling / Oversize / Unauthorized: Sep 29\u2013Nov 23 \u2192 Nov 24\u2013Dec 28 \u2192 Dec 29\u2013Jan 18",
+      "Express & Ground residential / Ground Economy: Oct 27\u2013Nov 23 \u2192 Nov 24\u2013Dec 28 \u2192 Dec 29\u2013Jan 18.",
+      "Per-package (headline amounts)",
+      "Additional Handling: $8.25 \u2192 $10.90 \u2192 $8.25",
+      "Oversize: $90 \u2192 $108.50 \u2192 $90",
+      "Ground Unauthorized: $490 \u2192 $545 \u2192 $490",
+      "Express (most): $1.05 \u2192 $2.10 \u2192 $1.05",
+      "Ground/Home Delivery (residential): $0.40 \u2192 $0.65 \u2192 $0.40",
+      "Ground Economy: $2.20 \u2192 $3.55 \u2192 $2.20.",
+      "Residential \u201cpeaking\u201d program (20k+ resi+Economy/week)",
+      "Dynamic weekly add-ons by peaking factor (e.g., Ground/Home: $1.55 \u2192 $7.50; Express: $2.80 \u2192 $8.75). Two-week lag from calc \u2192 application weeks."
+    ],
+    "USPS (Retail & Commercial)": [
+      "Window: Oct 5, 2025\u2013Jan 18, 2026 (temporary holiday price change approved by USPS governors; PRC review noted; USPS confirmed effective Oct 5).",
+      "How it works: flat amounts added by zone/weight to PM, PME, USPS Ground Advantage, and Parcel Select (commercial). Examples:",
+      "Commercial PM/GA Zone 1\u20134: +$0.30 (0\u20133 lb) / +$0.45 (4\u201310 lb) / +$0.75 (11\u201325 lb) / +$2.25 (26\u201370 lb & Oversized)",
+      "Commercial PM Zone 5\u20139: +$0.70 / +$1.25 / +$2.75 / +$6.50",
+      "Commercial GA Zone 5\u20139: +$0.35 / +$0.75 / +$1.25 / +$5.50",
+      "PME: +$1.00 to +$13.00 depending on zone/weight. (Retail adds are slightly higher.)"
+    ],
+    "Amazon Shipping (U.S.)": [
+      "Windows: Oct 26\u2013Nov 22, Nov 23\u2013Dec 27, Dec 28\u2013Jan 17.",
+      "Per-package demand surcharge: $0.40 \u2192 $0.60 \u2192 $0.40",
+      "Add\u2019l Handling: $8.25 \u2192 $10.80 \u2192 $8.25",
+      "Large Package: $90 \u2192 $107 \u2192 $90",
+      "Extra Heavy: $485 \u2192 $540 \u2192 $485.",
+      "Notes: still no residential or weekend delivery fee add-ons."
+    ],
+    "DHL eCommerce Solutions (SmartMail)": [
+      "Window: Oct 5, 2025\u2013Jan 17, 2026.",
+      "Domestic examples (per piece):",
+      "Parcel Ground/Expedited: $0.62 (zones 1\u20138) / $0.67 (zones 11\u201313)",
+      "Parcel Plus: $0.62 / $0.77 / $1.07 (0\u20133 / 4\u201310 / 11\u201325 lb), higher to zones 11\u201313",
+      "Returns and USPS-handed products (GA/PM) have listed adds mirroring USPS tiers (e.g., GA 26\u201370 lb: +$3.00 Z1\u20134 / +$5.50 Z5\u20138)."
+    ],
+    "OnTrac (LaserShip/OnTrac network)": [
+      "Window: Sep 27, 2025\u2013Jan 16, 2026 (demand/peak programs).",
+      "What\u2019s impacted: Residential demand adders, Additional Handling, Large Package, Exceeding Max Limits; plus a Demand Large Package program (criteria-based; e.g., length >72\u201d or cubic size >17,280 in\u00b3). Amounts may be account-specific\u2014check your agreement or current surcharge page."
+    ],
+    "GLS-US (regional carrier)": [
+      "Window & amount: GLS will assess a Peak-Season Surcharge = $1.50 per parcel during its 2025 window (GLS customer notice and accessorials table). Recent comms show Oct 13, 2025\u2013Jan 16, 2026 window."
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  portal:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - portal-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  portal-data:

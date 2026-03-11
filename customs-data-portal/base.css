@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Base CSS — Reset & Foundation
+   Broad Reach Customs Data Portal
+   ========================================================================== */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font smoothing */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Body defaults */
+body {
+  min-height: 100vh;
+  font-family: var(--font-body, 'DM Sans', system-ui, -apple-system, sans-serif);
+  color: var(--text-primary);
+  background: var(--bg-primary);
+}
+
+/* Responsive images */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form element reset */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* Focus visible outline */
+:focus-visible {
+  outline: 2px solid var(--color-primary, #0077b6);
+  outline-offset: 2px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Interactive elements transition */
+a,
+button,
+input,
+select,
+textarea {
+  transition: color var(--transition-fast, 150ms) ease,
+              background-color var(--transition-fast, 150ms) ease,
+              border-color var(--transition-fast, 150ms) ease,
+              box-shadow var(--transition-fast, 150ms) ease,
+              opacity var(--transition-fast, 150ms) ease;
+}
+
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

@@ -1,0 +1,13 @@
+{
+  "warmup_start_date": "2026-03-03",
+  "warmup_tool": "instantly.ai",
+  "current_week": 1,
+  "daily_limits_by_week": {
+    "1": 5,
+    "2": 10,
+    "3": 20,
+    "4": 25
+  },
+  "notes": "Managed by instantly.ai. Week 4+ is steady-state ceiling (25/day). Do not manually override without consulting email deliverability team.",
+  "last_updated": "2026-03-06T19:00:00Z"
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results - Broad Reach Customer Portal</title>
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="client-layout journey-layout">
+      <header class="client-header">
+        <div class="client-header-left">
+          <div>
+            <div class="client-company">Acme Commerce</div>
+            <div class="client-powered">Powered by Broad Reach</div>
+          </div>
+        </div>
+        <div class="client-header-right">
+          <button class="btn-ghost" onclick="alert('Logout clicked')">Logout</button>
+        </div>
+      </header>
+      
+      <div id="journey-stepper-container">
+        <div class="journey-stepper">
+          <div class="journey-stepper-inner">
+            <div class="journey-step completed"><div class="journey-step-dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><div class="journey-step-label">Welcome</div></div>
+            <div class="journey-connector"><div class="journey-connector-fill" style="width:100%"></div></div>
+            <div class="journey-step completed"><div class="journey-step-dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><div class="journey-step-label">Upload</div></div>
+            <div class="journey-connector"><div class="journey-connector-fill" style="width:100%"></div></div>
+            <div class="journey-step completed"><div class="journey-step-dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><div class="journey-step-label">Review</div></div>
+            <div class="journey-connector"><div class="journey-connector-fill" style="width:100%"></div></div>
+            <div class="journey-step active"><div class="journey-step-dot"><span>4</span></div><div class="journey-step-label">Results</div></div>
+          </div>
+        </div>
+      </div>
+
+      <main class="client-main" id="client-content">
+        <div class="journey-content journey-fade-in" style="padding:24px;">
+          <div class="content-area results-journey-content">
+           <div class="results-celebration-header">
+              <div class="results-celebration-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <h2 class="results-title">Great news! We found savings for you. 🎉</h2>
+              <p class="results-subtitle">Here's your personalized shipping savings analysis.</p>
+            </div>
+
+            <div class="card" style="margin:24px 0;">
+              <div class="card-label">Executive Summary</div>
+              <div class="exec-grid-enhanced">
+                <div class="exec-card">
+                  <div class="exec-card-label">Current Spend</div>
+                  <div class="exec-card-value">$1,150.00</div>
+                  <div class="exec-card-sub">50 shipments</div>
+                </div>
+                <div class="exec-card accent">
+                  <div class="exec-card-label">Broad Reach Price</div>
+                  <div class="exec-card-value">$960.00</div>
+                  <div class="exec-card-sub">Avg $19.20/shipment</div>
+                </div>
+                <div class="exec-card savings">
+                  <div class="exec-card-label">Total Savings</div>
+                  <div class="exec-card-value">$190.00</div>
+                  <div class="exec-card-sub">17% reduction</div>
+                </div>
+                <div class="exec-card">
+                  <div class="exec-card-label">Coverage</div>
+                  <div class="exec-card-value">45/50</div>
+                  <div class="exec-card-sub">shipments with savings</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scroll spacer to demonstrate scrolling -->
+            <div style="height:400px;"></div>
+
+            <!-- Re-analyze with new data card -->
+            <div class="card reanalyze-card">
+              <div class="reanalyze-card-inner">
+                <div class="reanalyze-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                </div>
+                <div>
+                  <div class="card-label" style="margin-bottom:4px;">Have newer shipping data?</div>
+                  <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin:0;">Upload a fresh dataset and we'll run a new analysis. Your current results will remain available until the new analysis is published.</p>
+                </div>
+              </div>
+              <button class="btn-secondary full-width" style="margin-top:var(--space-3);" onclick="alert('Upload button clicked!')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                Upload New Data for Re-analysis
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,716 @@
+{
+  "Express": [
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 2)",
+      "service": "Express",
+      "rate": 28.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 3-4)",
+      "service": "Express",
+      "rate": 31.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 5-6)",
+      "service": "Express",
+      "rate": 34.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 7+)",
+      "service": "Express",
+      "rate": 38.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 2)",
+      "service": "Express",
+      "rate": 43.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 3-4)",
+      "service": "Express",
+      "rate": 47.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 5-6)",
+      "service": "Express",
+      "rate": 50.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 7+)",
+      "service": "Express",
+      "rate": 55.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 2)",
+      "service": "Express",
+      "rate": 25.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 3-4)",
+      "service": "Express",
+      "rate": 29.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 5-6)",
+      "service": "Express",
+      "rate": 30.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 7+)",
+      "service": "Express",
+      "rate": 31.5
+    },
+    {
+      "surcharge": "Additional Handling Dimension",
+      "service": "International Express",
+      "rate": 27.0
+    },
+    {
+      "surcharge": "Additional Handling Weight",
+      "service": "International Express",
+      "rate": 38.0
+    },
+    {
+      "surcharge": "Additional Handling Packaging",
+      "service": "International Express",
+      "rate": 27.0
+    },
+    {
+      "surcharge": "Address Correction",
+      "service": "Express",
+      "rate": 24.0
+    },
+    {
+      "surcharge": "Address Correction",
+      "service": "International Express",
+      "rate": 24.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Accessible",
+      "service": "First Over Night",
+      "rate": 175.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Accessible",
+      "service": "Priority Overnight",
+      "rate": 175.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Accessible",
+      "service": "International First",
+      "rate": 240.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Accessible",
+      "service": "International Priority",
+      "rate": 115.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Inaccessible",
+      "service": "Express",
+      "rate": 80.0
+    },
+    {
+      "surcharge": "Dangerous Goods- Inaccessible",
+      "service": "International Express",
+      "rate": 115.0
+    },
+    {
+      "surcharge": "Dry Ice (charged per package)",
+      "service": "Express",
+      "rate": 8.0
+    },
+    {
+      "surcharge": "Dry Ice (charged per shipment)",
+      "service": "International Express",
+      "rate": 8.0
+    },
+    {
+      "surcharge": "Dry Ice to or from Puerto Rico (charged per package)",
+      "service": "International Express",
+      "rate": 8.0
+    },
+    {
+      "surcharge": "Declared Value (value $100.01-$300)",
+      "service": "Express",
+      "rate": 4.5
+    },
+    {
+      "surcharge": "Declared Value (Excess of $300)",
+      "service": "Express",
+      "rate": 1.5
+    },
+    {
+      "surcharge": "Declared Value (Excess of $100)",
+      "service": "International Express",
+      "rate": 1.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Commercial",
+      "service": "Express",
+      "rate": 4.2
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Extended Commercial",
+      "service": "Express",
+      "rate": 5.25
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Residential",
+      "service": "Express",
+      "rate": 6.2
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Extended Residential",
+      "service": "Express",
+      "rate": 8.3
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Remote Commercial",
+      "service": "Express",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Remote Residential",
+      "service": "Express",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Alaska Commercial",
+      "service": "Express",
+      "rate": 43.0
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Alaska Residential",
+      "service": "Express",
+      "rate": 43.0
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Hawaii Commercial",
+      "service": "Express",
+      "rate": 14.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Hawaii Residential",
+      "service": "Express",
+      "rate": 14.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Intra Hawaii (Commercial and Residential)",
+      "service": "Express",
+      "rate": 1.1
+    },
+    {
+      "surcharge": "Express On Call Pickup",
+      "service": "Express",
+      "rate": 4.0
+    },
+    {
+      "surcharge": "Express On Call Pickup",
+      "service": "International Express",
+      "rate": 4.0
+    },
+    {
+      "surcharge": "Indirect Signature",
+      "service": "Express",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Direct Signature",
+      "service": "Express",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Adult Signature",
+      "service": "Express",
+      "rate": 8.65
+    },
+    {
+      "surcharge": "Indirect Signature",
+      "service": "International Express",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Direct Signature",
+      "service": "International Express",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Adult Signature",
+      "service": "International Express",
+      "rate": 8.65
+    },
+    {
+      "surcharge": "Email Return Label",
+      "service": "Express",
+      "rate": 1.05
+    },
+    {
+      "surcharge": "Email Return Label",
+      "service": "International Express",
+      "rate": 1.05
+    },
+    {
+      "surcharge": "Print Return Label",
+      "service": "Express",
+      "rate": 1.05
+    },
+    {
+      "surcharge": "Print Return Label",
+      "service": "International Express",
+      "rate": 1.05
+    },
+    {
+      "surcharge": "Express Call Tag",
+      "service": "Express",
+      "rate": 8.3
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 2)",
+      "service": "Express",
+      "rate": 205.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 3-4)",
+      "service": "Express",
+      "rate": 225.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 5-6)",
+      "service": "Express",
+      "rate": 240.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 7+)",
+      "service": "Express",
+      "rate": 260.0
+    },
+    {
+      "surcharge": "Oversize Charge",
+      "service": "International Express",
+      "rate": 190.0
+    },
+    {
+      "surcharge": "Residential Delivery Charge",
+      "service": "Express",
+      "rate": 6.55
+    },
+    {
+      "surcharge": "Residential Delivery Charge",
+      "service": "International Express",
+      "rate": 6.55
+    },
+    {
+      "surcharge": "Saturday Delivery",
+      "service": "Express",
+      "rate": 16.0
+    },
+    {
+      "surcharge": "Saturday Delivery",
+      "service": "International Express",
+      "rate": 16.0
+    },
+    {
+      "surcharge": "Saturday Pickup",
+      "service": "Express",
+      "rate": 16.0
+    },
+    {
+      "surcharge": "Saturday Pickup",
+      "service": "International Express",
+      "rate": 16.0
+    }
+  ],
+  "Ground": [
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 2)",
+      "service": "Ground",
+      "rate": 22.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 3-4)",
+      "service": "Ground",
+      "rate": 24.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 5-6)",
+      "service": "Ground",
+      "rate": 27.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Dimension (Zone 7 +)",
+      "service": "Ground",
+      "rate": 30.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 2)",
+      "service": "Ground",
+      "rate": 34.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 3-4)",
+      "service": "Ground",
+      "rate": 37.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 5-6)",
+      "service": "Ground",
+      "rate": 40.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Weight (Zone 7+)",
+      "service": "Ground",
+      "rate": 43.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 2)",
+      "service": "Ground",
+      "rate": 19.5
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 3-4)",
+      "service": "Ground",
+      "rate": 23.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 5-6)",
+      "service": "Ground",
+      "rate": 24.0
+    },
+    {
+      "surcharge": "Additional Handling Surcharge- Packaging (Zone 7+)",
+      "service": "Ground",
+      "rate": 25.0
+    },
+    {
+      "surcharge": "Additional Handling Dimension",
+      "service": "International Ground",
+      "rate": 22.5
+    },
+    {
+      "surcharge": "Additional Handling Weight",
+      "service": "International Ground",
+      "rate": 36.0
+    },
+    {
+      "surcharge": "Additional Handling Packaging",
+      "service": "International Ground",
+      "rate": 21.5
+    },
+    {
+      "surcharge": "Address Correction",
+      "service": "Ground",
+      "rate": 22.5
+    },
+    {
+      "surcharge": "Address Correction",
+      "service": "International Ground",
+      "rate": 22.5
+    },
+    {
+      "surcharge": "Declared Value (value $100.01-$300)",
+      "service": "Ground",
+      "rate": 4.2
+    },
+    {
+      "surcharge": "Declared Value (Excess of $300)",
+      "service": "Ground",
+      "rate": 1.4
+    },
+    {
+      "surcharge": "Declared Value (Excess of $100)",
+      "service": "International Ground",
+      "rate": 1.4
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Commercial",
+      "service": "Ground",
+      "rate": 4.2
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Extended Commercial",
+      "service": "Ground",
+      "rate": 5.25
+    },
+    {
+      "surcharge": "Alaska Commercial",
+      "service": "Ground",
+      "rate": 43.0
+    },
+    {
+      "surcharge": "Hawaii Commercial",
+      "service": "Ground",
+      "rate": 14.5
+    },
+    {
+      "surcharge": "Intra Hawaii Commercial",
+      "service": "Ground",
+      "rate": 1.1
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Residential",
+      "service": "Ground and Home Delivery",
+      "rate": 6.2
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Extended Residential",
+      "service": "Ground and Home Delivery",
+      "rate": 8.3
+    },
+    {
+      "surcharge": "Alaska Residential",
+      "service": "Ground and Home Delivery",
+      "rate": 43.0
+    },
+    {
+      "surcharge": "Hawaii Residential",
+      "service": "Ground and Home Delivery",
+      "rate": 14.5
+    },
+    {
+      "surcharge": "Intra-Hawaii Residential",
+      "service": "Ground and Home Delivery",
+      "rate": 1.1
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Remote Commercial",
+      "service": "Ground",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Remote Residential",
+      "service": "Home Delivery",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Indirect Signature",
+      "service": "Ground",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Direct Signature",
+      "service": "Ground",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Adult Signature",
+      "service": "Ground",
+      "rate": 8.65
+    },
+    {
+      "surcharge": "Indirect Signature",
+      "service": "International Ground",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Direct Signature",
+      "service": "International Ground",
+      "rate": 7.15
+    },
+    {
+      "surcharge": "Adult Signature",
+      "service": "International Ground",
+      "rate": 8.65
+    },
+    {
+      "surcharge": "Email Return Label",
+      "service": "Ground and Home Delivery",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Print Return Label",
+      "service": "Ground and Home Delivery",
+      "rate": 15.5
+    },
+    {
+      "surcharge": "Alternate Address Pickup",
+      "service": "Ground",
+      "rate": 16.5
+    },
+    {
+      "surcharge": "Alternate Address Pickup",
+      "service": "International Ground",
+      "rate": 16.5
+    },
+    {
+      "surcharge": "Automated Ground Weekly Pickup",
+      "service": "Ground",
+      "rate": 19.0
+    },
+    {
+      "surcharge": "Automated Ground Weekly Pickup",
+      "service": "International Ground",
+      "rate": 19.0
+    },
+    {
+      "surcharge": "Ground Weekly Pickup Fee- Greater than $75",
+      "service": "Ground",
+      "rate": 23.0
+    },
+    {
+      "surcharge": "Ground Weekly Pickup Fee- Less than $75",
+      "service": "Ground",
+      "rate": 46.0
+    },
+    {
+      "surcharge": "Ground Weekly Pickup Fee- Greater than $75",
+      "service": "International Ground",
+      "rate": 23.0
+    },
+    {
+      "surcharge": "Ground Weekly Pickup Fee- Less than $75",
+      "service": "International Ground",
+      "rate": 46.0
+    },
+    {
+      "surcharge": "Ground On Call Pickup- electronic solution",
+      "service": "Ground",
+      "rate": 3.0
+    },
+    {
+      "surcharge": "Ground On Call Pickup- customer service",
+      "service": "Ground",
+      "rate": 4.0
+    },
+    {
+      "surcharge": "Ground On Call Pickups Maximum Per Week",
+      "service": "Ground",
+      "rate": 20.0
+    },
+    {
+      "surcharge": "Ground Call Tag- via automation",
+      "service": "Ground",
+      "rate": 8.3
+    },
+    {
+      "surcharge": "Ground Call Tag- via Customer Service",
+      "service": "Ground",
+      "rate": 9.5
+    },
+    {
+      "surcharge": "Ground Call Tag- Residential Pickup",
+      "service": "Ground",
+      "rate": 9.5
+    },
+    {
+      "surcharge": "Ground Unauthorized Package Charge",
+      "service": "Ground",
+      "rate": 1325.0
+    },
+    {
+      "surcharge": "Ground Unauthorized Package Charge",
+      "service": "International Ground",
+      "rate": 1325.0
+    },
+    {
+      "surcharge": "Hazmat",
+      "service": "Ground",
+      "rate": 54.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 2)",
+      "service": "Ground",
+      "rate": 240.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 3-4)",
+      "service": "Ground",
+      "rate": 260.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 5-6)",
+      "service": "Ground",
+      "rate": 290.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 7+)",
+      "service": "Ground",
+      "rate": 305.0
+    },
+    {
+      "surcharge": "Oversize Charge",
+      "service": "International Ground",
+      "rate": 190.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 2)",
+      "service": "Home Delivery",
+      "rate": 240.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 3-4)",
+      "service": "Home Delivery",
+      "rate": 260.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 5-6)",
+      "service": "Home Delivery",
+      "rate": 290.0
+    },
+    {
+      "surcharge": "Oversize Charge (Zone 7+)",
+      "service": "Home Delivery",
+      "rate": 305.0
+    },
+    {
+      "surcharge": "Residential Delivery Charge",
+      "service": "Ground",
+      "rate": 5.95
+    },
+    {
+      "surcharge": "Residential Delivery Charge",
+      "service": "Home Delivery",
+      "rate": 5.95
+    },
+    {
+      "surcharge": "Residential Delivery Charge",
+      "service": "International Ground",
+      "rate": 5.95
+    },
+    {
+      "surcharge": "Balloon",
+      "service": "Ground Economy",
+      "rate": "20lb billable weight"
+    },
+    {
+      "surcharge": "Third Party Billing Surcharge",
+      "service": "Ground Economy",
+      "rate": 0.05
+    },
+    {
+      "surcharge": "Delivery and Returns",
+      "service": "Ground Economy",
+      "rate": 1.1
+    },
+    {
+      "surcharge": "Delivery Area Surcharge",
+      "service": "Ground Economy",
+      "rate": 4.0
+    },
+    {
+      "surcharge": "Deliver Area Surcharge- Extended",
+      "service": "Ground Economy",
+      "rate": 5.35
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Alaska",
+      "service": "Ground Economy",
+      "rate": 5.35
+    },
+    {
+      "surcharge": "Delivery Area Surcharge- Hawaii",
+      "service": "Ground Economy",
+      "rate": 5.35
+    },
+    {
+      "surcharge": "Non-Machinable",
+      "service": "Ground Economy",
+      "rate": 6.55
+    },
+    {
+      "surcharge": "Package Relabel",
+      "service": "Ground Economy",
+      "rate": 1.0
+    }
+  ]
+}

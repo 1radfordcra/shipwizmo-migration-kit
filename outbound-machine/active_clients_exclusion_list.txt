@@ -1,0 +1,22 @@
+# ──────────────────────────────────────────────────────────────────────
+# Broad Reach — Active Clients Exclusion List
+# ──────────────────────────────────────────────────────────────────────
+# PURPOSE: Prevent outbound outreach to current paying clients.
+# FORMAT: One company domain per line (lowercase, no protocol).
+# SOURCE: Synced from Notion "Active Clients" database via daily_cron_v10.py Step 1.
+# SAFETY: The daily cron will HALT if this file has fewer than 100 entries.
+#         This prevents accidental mass-emailing of active clients if the
+#         file is corrupted or truncated.
+#
+# DO NOT EDIT MANUALLY — this file is auto-synced from Notion.
+# To add a client: add them to the Notion "Active Clients" database.
+# To remove a client: archive them in Notion (do NOT delete the row).
+#
+# Expected count: ~159 domains (as of March 2026)
+# ──────────────────────────────────────────────────────────────────────
+# TEMPLATE: Replace with actual client domains from Notion sync.
+# The daily cron's sync_exclusion_list_from_notion() overwrites this file.
+# ──────────────────────────────────────────────────────────────────────
+example-client-1.com
+example-client-2.com
+example-client-3.com
